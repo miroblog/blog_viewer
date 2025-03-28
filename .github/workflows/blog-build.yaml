@@ -1,0 +1,292 @@
+name: tech blog static build and deploy
+
+on:
+  push:
+    branches: [ main, test ]
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest-large
+
+    steps:
+      - name: Checkout code 
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Node.js 
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+          cache: 'npm'
+          
+      - name: Cache node modules 
+        uses: actions/cache@v3
+        id: npm-cache
+        with:
+          path: |
+            **/node_modules
+            ~/.npm
+            ${{ github.workspace }}/.next/cache
+          key: ${{ runner.os }}-npm-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-npm-
+
+      - name: Install dependencies 
+        if: steps.npm-cache.outputs.cache-hit != 'true'
+        run: npm ci --prefer-offline --no-audit
+
+      - name: Cache Next.js build 
+        uses: actions/cache@v3
+        with:
+          path: |
+            ${{ github.workspace }}/.next/cache
+            ${{ github.workspace }}/out
+          key: ${{ runner.os }}-nextjs-${{ hashFiles('**.[jt]s', '**.[jt]sx', '**/*.md') }}-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-nextjs-${{ hashFiles('**.[jt]s', '**.[jt]sx', '**/*.md') }}-
+            ${{ runner.os }}-nextjs-
+
+      - name: Configure Next.js for static export 
+        run: |
+          # Modify next.config.js for static export with proper path configurations
+          cat > next.config.js << 'EOL'
+          /** @type {import('next').NextConfig} */
+          const nextConfig = {
+            reactStrictMode: true,
+            output: 'export',
+            trailingSlash: true,  # Add trailing slashes to all routes
+            images: {
+              unoptimized: true,
+            },
+            # This allows us to use the public directory for static assets
+            # like images and videos
+            webpack(config) {
+              config.module.rules.push({
+                test: /\.(mp4|webm)$/,
+                use: {
+                  loader: 'file-loader',
+                  options: {
+                    publicPath: '/_next/static/videos/',
+                    outputPath: 'static/videos/',
+                    name: '[name].[hash].[ext]',
+                  },
+                },
+              });
+              return config;
+            },
+          };
+          
+          module.exports = nextConfig;
+          EOL
+
+      - name: Build static site 
+        run: npm run build
+        env:
+          NODE_ENV: production
+          # Use all available cores for faster build
+          NODE_OPTIONS: --max-old-space-size=4096
+
+      - name: Check build output directories
+        run: |
+          echo "Current directory: $(pwd)"
+          echo "Listing all directories:"
+          ls -la
+          echo "Checking for .next directory:"
+          ls -la .next || echo ".next directory not found"
+          echo "Checking for out directory:"
+          ls -la out || echo "out directory not found"
+          
+          # If out directory doesn't exist but .next does, try manual export
+          if [ ! -d "out" ] && [ -d ".next" ]; then
+            echo "Manually exporting from .next to out..."
+            npx next export
+            echo "After manual export:"
+            ls -la out || echo "out directory still not found"
+          fi
+
+      - name: Move blog content to root 
+        run: |
+          # First check if output directory exists
+          if [ ! -d "out" ]; then
+            echo "ERROR: out directory not found. Build may have failed or used a different output directory."
+            exit 1
+          fi
+          
+          # Check if /blog directory exists in the output
+          if [ -d "out/blog" ]; then
+            echo "Moving blog content to root directory..."
+            
+            # Copy all content from /blog to root, preserving directory structure
+            cp -r out/blog/* out/
+            
+            # Remove the now-redundant /blog directory
+            rm -rf out/blog
+            
+            echo "Blog content successfully moved to root"
+          else
+            echo "Warning: out/blog directory not found, skipping content move"
+            echo "Listing contents of out directory:"
+            ls -la out
+          fi
+
+      - name: Fix asset paths 
+        run: |
+          # Make sure out directory exists
+          if [ ! -d "out" ]; then
+            echo "ERROR: out directory not found for asset path fixing."
+            exit 1
+          fi
+          
+          # Find all html files
+          find out -name "*.html" -type f -exec \
+            sed -i 's/"\/_next/"\.\.\/_next/g' {} \; || echo "No HTML files found to fix"
+          
+          # Fix URLs in CSS files if needed
+          find out -name "*.css" -type f -exec \
+            sed -i 's/url(\/_next/url(\.\.\/_next/g' {} \; || echo "No CSS files found to fix"
+          
+          # Fix internal links that might still point to /blog/
+          find out -name "*.html" -type f -exec \
+            sed -i 's/href="\/blog\//href="\//g' {} \; || echo "No HTML files found to fix links"
+
+      - name: Install Git LFS 
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y git-lfs
+          git lfs install
+
+      - name: Configure Git user 
+        run: |
+          git config --global user.name "GitHub Actions"
+          git config --global user.email "github-actions@github.com"
+
+      - name: Create and push production branch with LFS 
+        run: |
+          # Debug the current state
+          echo "Current directory: $(pwd)"
+          echo "Contents of directory:"
+          ls -la
+          
+          # Check if out directory exists
+          if [ ! -d "out" ]; then
+            echo "ERROR: out directory not found. Cannot proceed with deployment."
+            exit 1
+          fi
+          
+          echo "Contents of out directory:"
+          ls -la out
+          
+          # Create a fresh orphan branch for production
+          git checkout --orphan temp_production
+          
+          # Remove all files from the working directory
+          git rm -rf --cached .
+          rm -rf *
+          rm -rf .* 2>/dev/null || true
+          
+          # Copy contents from out directory to working directory
+          echo "Copying build artifacts from out directory..."
+          cp -r out/* . || { echo "Failed to copy from out directory"; exit 1; }
+          
+          # Verify copy was successful
+          echo "Contents after copy:"
+          ls -la
+          
+          # Create .gitignore file to exclude unnecessary files
+          cat > .gitignore << 'EOL'
+          # Development files
+          node_modules/
+          .next/
+          .swc/
+          .turbo/
+          .vercel/
+          .idea/
+          .vscode/
+          
+          # Build artifacts not needed for static site
+          *.log
+          .DS_Store
+          .env*
+          
+          # Backup files
+          *.backup
+          
+          # Temporary files
+          tmp/
+          temp/
+          *.tmp
+          
+          # We don't need package management files in the production branch
+          package.json
+          package-lock.json
+          yarn.lock
+          pnpm-lock.yaml
+          
+          # Config files not needed in production
+          *.config.js
+          tsconfig.json
+          .eslintrc*
+          .prettierrc*
+          .babelrc*
+          
+          # Source files (we only need the built files)
+          src/
+          EOL
+          
+          # Add .gitignore
+          git add .gitignore
+          
+          # Auto-detect and track large files with Git LFS
+          echo "Detecting files larger than 100MB and setting up Git LFS tracking..."
+          LARGE_FILES=$(find . -type f -size +100M -not -path "./.git/*")
+          
+          if [ -n "$LARGE_FILES" ]; then
+            echo "Found large files to track with Git LFS:"
+            echo "$LARGE_FILES"
+            
+            # Initialize .gitattributes if it doesn't exist
+            touch .gitattributes
+            
+            # Track each large file with Git LFS
+            for file in $LARGE_FILES; do
+              # Get relative path
+              rel_file=$(echo $file | sed 's|^\./||')
+              echo "Setting up LFS tracking for: $rel_file"
+              # Create a pattern that matches this specific file
+              pattern=$(basename "$rel_file")
+              dir=$(dirname "$rel_file")
+              if [ "$dir" != "." ]; then
+                # For files in subdirectories, create a pattern with the directory
+                pattern="$dir/$pattern"
+              fi
+              # Add the pattern to .gitattributes if not already there
+              if ! grep -q "$pattern" .gitattributes; then
+                echo "$pattern filter=lfs diff=lfs merge=lfs -text" >> .gitattributes
+              fi
+            done
+            
+            # Add .gitattributes file
+            git add .gitattributes
+          else
+            echo "No files larger than 100MB found."
+          fi
+          
+          # Add all files to git (excluding those in .gitignore)
+          git add .
+          
+          # Ensure LFS tracking is applied
+          git lfs track
+          
+          # Create commit message with timestamp
+          current_date=$(date '+%Y-%m-%d %H:%M:%S')
+          git commit -m "Site build and deploy: ${current_date}" || echo "No changes to commit"
+          
+          # Check if production branch exists
+          if git ls-remote --heads origin production | grep production; then
+            # Force push the temp branch to production
+            git push -f origin temp_production:production
+          else
+            # Create and push the production branch
+            git push -f origin temp_production:production
+          fi
