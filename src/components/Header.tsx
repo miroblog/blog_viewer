@@ -10,7 +10,7 @@ const Header: React.FC = () => {
     <header className="bg-black text-white shadow-md">
       <div className="container mx-auto px-4 py-4">
         <div className="flex items-center justify-between">
-          <Link href="/blog" className="flex items-center">
+          <Link href="/" className="flex items-center">
             <div className="flex items-center">
               <span className="font-bold text-xl tracking-tight">HYPERITHM<sup>®</sup> Tech Blog</span>
             </div>
