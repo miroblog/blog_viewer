@@ -1,0 +1,2152 @@
+3:I[5613,[],""]
+5:I[1778,[],""]
+6:I[3397,["250","static/chunks/250-5e93a094dbe442f3.js","749","static/chunks/749-13df798019da1ce5.js","185","static/chunks/app/layout-71070521bf30b8fb.js"],"ThemeProvider"]
+7:I[9333,["250","static/chunks/250-5e93a094dbe442f3.js","749","static/chunks/749-13df798019da1ce5.js","185","static/chunks/app/layout-71070521bf30b8fb.js"],""]
+8:I[5250,["250","static/chunks/250-5e93a094dbe442f3.js","749","static/chunks/749-13df798019da1ce5.js","404","static/chunks/app/blog/page-4709624294f584a9.js"],""]
+9:I[8722,["250","static/chunks/250-5e93a094dbe442f3.js","749","static/chunks/749-13df798019da1ce5.js","185","static/chunks/app/layout-71070521bf30b8fb.js"],""]
+4:["slug","windsurf_guides","d"]
+0:["rrIXDp9loxua5lxmes0Yc",[[["",{"children":["blog",{"children":[["slug","windsurf_guides","d"],{"children":["__PAGE__?{\"slug\":\"windsurf_guides\"}",{}]}]}]},"$undefined","$undefined",true],["",{"children":["blog",{"children":[["slug","windsurf_guides","d"],{"children":["__PAGE__",{},["$L1","$L2",null]]},["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children","blog","children","$4","children"],"loading":"$undefined","loadingStyles":"$undefined","loadingScripts":"$undefined","hasLoading":false,"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","styles":null}]]},["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children","blog","children"],"loading":"$undefined","loadingStyles":"$undefined","loadingScripts":"$undefined","hasLoading":false,"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","styles":null}]]},[null,["$","html",null,{"lang":"ko","className":"light __variable_13657f","children":["$","body",null,{"className":"__className_ce6407","children":["$","$L6",null,{"children":["$","div",null,{"className":"flex flex-col min-h-screen","children":[["$","$L7",null,{}],["$","main",null,{"className":"flex-grow container mx-auto px-4 py-8","children":["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children"],"loading":"$undefined","loadingStyles":"$undefined","loadingScripts":"$undefined","hasLoading":false,"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":["$","div",null,{"className":"container mx-auto px-4 py-16 text-center","children":[["$","h1",null,{"className":"text-6xl font-bold mb-6","children":"404"}],["$","h2",null,{"className":"text-3xl font-semibold mb-6","children":"Page Not Found"}],["$","p",null,{"className":"text-xl text-gray-600 dark:text-gray-400 mb-8","children":"The page you are looking for does not exist or has been moved."}],["$","$L8",null,{"href":"/","className":"inline-block bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-lg transition-colors","children":"Return to Home"}]]}],"notFoundStyles":[],"styles":null}]}],["$","$L9",null,{}]]}]}]}]}],null]],[[["$","link","0",{"rel":"stylesheet","href":"/tech-blog-md-viewer/_next/static/css/09a7dd651f6f7721.css","precedence":"next","crossOrigin":""}],["$","link","1",{"rel":"stylesheet","href":"/tech-blog-md-viewer/_next/static/css/1632387553a9aa3b.css","precedence":"next","crossOrigin":""}]],"$La"]]]]
+b:I[499,["749","static/chunks/749-13df798019da1ce5.js","104","static/chunks/104-1d9cff96877ac052.js","308","static/chunks/app/blog/%5Bslug%5D/page-85548c81c7ef558b.js"],""]
+c:I[9820,["749","static/chunks/749-13df798019da1ce5.js","104","static/chunks/104-1d9cff96877ac052.js","308","static/chunks/app/blog/%5Bslug%5D/page-85548c81c7ef558b.js"],""]
+e:I[5638,["749","static/chunks/749-13df798019da1ce5.js","104","static/chunks/104-1d9cff96877ac052.js","308","static/chunks/app/blog/%5Bslug%5D/page-85548c81c7ef558b.js"],""]
+d:Tb39a,<h1>개요</h1>
+<ul>
+<li>본 문서는 Hyperithm 테크팀 IA (Intelligent Automation) 팀이, 사내 개발인력 생산성 강화를 위해 작성한 Windsurf 사용에 대한 종합적인 가이드입니다.</li>
+<li>작성 시점은 2025년 3월 26일이며 작성자는 Hyperithm 엔지니어 이한결 님입니다.</li>
+<li>회사와 팀에 대한 소개는 다음에서 볼 수 있습니다.
+<ul>
+<li>홈페이지 - <a href="https://www.hyperithm.com/">https://www.hyperithm.com</a></li>
+<li>채용 - <a href="https://hyperithm.career.greetinghr.com/">https://hyperithm.career.greetinghr.com</a></li>
+<li>CTO 양준하 <a href="https://www.linkedin.com/in/junha-y-5923061b6/">https://www.linkedin.com/in/junha-y-5923061b6</a>
+<ul>
+<li>커피챗 신청 환영입니다 - <a href="mailto:junha@hyperithm.com">junha@hyperithm.com</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h1>소개</h1>
+<h2>Windsurf 소개</h2>
+<ul>
+<li><strong>Cascade</strong> : 프로젝트를 깊이 이해하는 AI 기반 어시스턴트 (오른쪽에 위치한 채팅 인터페이스)</li>
+<li>WindsurfTab: 전체 코드 블록을 생성하는 지능형 코드 완성 도구 (editor 내에서 tab)</li>
+<li><strong>Command Mode</strong>: inline 또는 영역을 지정해 코드 편집 (Cmd + I)</li>
+<li><strong>Flows</strong>: 실시간 AI 협업 및 맥락 인식</li>
+<li><strong>Memories</strong>: 여러 대화에 걸쳐 컨텍스트 유지</li>
+<li><strong>Cascade Terminal</strong>: AI 지원으로 명령 실행</li>
+<li><strong>Preview</strong>: IDE 내 미리보기 기능으로 간소화된 웹 개발</li>
+</ul>
+<h2>설치 및 설정</h2>
+<ol>
+<li><strong>다운로드 및 설치</strong>:
+<ul>
+<li><a href="https://codeium.com/windsurf">codeium.com/windsurf</a> 를 방문하여 다운로드 및 설치합니다.</li>
+<li>Windsurf를 실행하고 설정 기본 설정을 선택합니다.</li>
+</ul>
+</li>
+<li><strong>초기 구성</strong>:
+<ul>
+<li>VS Code 또는 Cursor에서 설정 가져오기(선택사항)</li>
+<li>새로운 구성으로 시작</li>
+<li>무료 크레딧 액세스를 위한 무료 Windsurf 계정 가입</li>
+<li>명령줄 액세스를 위해 PATH 환경에 Windsurf 설치(선택사항)</li>
+</ul>
+</li>
+<li><strong>환경 설정</strong>:
+<ul>
+<li>선호하는 키바인딩 선택(VS Code 또는 Vim)</li>
+<li>에디터 테마 선택</li>
+</ul>
+</li>
+</ol>
+<h2>공식 documentation</h2>
+<ul>
+<li><a href="https://docs.codeium.com/windsurf/getting-started">https://docs.codeium.com/windsurf/getting-started</a></li>
+</ul>
+<h2>필수 단축키</h2>
+<table>
+<thead>
+<tr>
+<th>동작</th>
+<th>Windows/Linux</th>
+<th>Mac</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Cascade 열기/닫기</td>
+<td>Ctrl + L</td>
+<td>Cmd + L</td>
+</tr>
+<tr>
+<td>명령 팔레트 열기</td>
+<td>Ctrl + Shift + P</td>
+<td>Cmd + Shift + P</td>
+</tr>
+<tr>
+<td>Inline AI</td>
+<td>Ctrl + I</td>
+<td>Cmd + I</td>
+</tr>
+<tr>
+<td>브레드크럼에 포커스</td>
+<td>Ctrl + Shift + ;</td>
+<td>Ctrl + Shift + ;</td>
+</tr>
+</tbody>
+</table>
+<h1>핵심 인터페이스 (Cascade)</h1>
+<p>Windsurf 인터페이스는 다음과 같은 주요 구성 요소로 이루어져 있습니다:</p>
+<ul>
+<li><strong>Cascade 패널</strong>: 오른쪽에 위치하며, AI 어시스턴트와 주로 상호작용하는 곳입니다.</li>
+</ul>
+<p><img src="/windsurf_assets/image.png" alt="image.png"></p>
+<ul>
+<li><strong>메뉴 바</strong>: 오른쪽 상단에 위치하며, 업데이트 및 설정에 접근할 수 있습니다.</li>
+</ul>
+<p><img src="/windsurf_assets/image%201.png" alt="image.png"></p>
+<ul>
+<li>
+<p><strong>설정 버튼</strong> : 오른쪽 하단에 위치하며, 구성 옵션에 빠르게 접근할 수 있습니다.</p>
+<p><img src="/windsurf_assets/image%202.png" alt="image.png"></p>
+</li>
+</ul>
+<h2>Cascade (Mode)</h2>
+<p>Cascade는 Windsurf의 에이전트 기능의 핵심 축으로, 코드베이스에 대한 깊은 이해, 고급 도구 및 실시간 인식을 결합합니다.</p>
+<p>작동 모드 (cmd + .  로 모드 변환)</p>
+<ul>
+<li><strong>Write 모드</strong>: AutoGPT와 유사하게, 최소한의 개입으로 여러 파일을 생성하고, 스크립트 실행, 테스트 수행, 코드 디버깅이 가능합니다.</li>
+<li><strong>Chat 모드</strong>: 더 대화형으로, 프롬프트를 기반으로 코드 스니펫 생성 및 지침 제공에 중점을 둡니다.</li>
+<li><strong>Legacy 모드</strong>: 현재 프로젝트와 관련 없는 일반 질문에 대해 ChatGPT처럼 기능합니다.</li>
+</ul>
+<h2><strong>@ 멘션 컨텍스트</strong></h2>
+<ul>
+<li>@ 기호를 사용하여 특정 파일, 함수 또는 클래스를 참조합니다.</li>
+</ul>
+<p><img src="/windsurf_assets/image%203.png" alt="image.png"></p>
+<h3>웹에서 검색</h3>
+<ul>
+<li>검색어(query)를 던져주거나, 특정 link를 전달해 내용을 reference로 참조</li>
+</ul>
+<h3>Codes, Files, Directories</h3>
+<ul>
+<li>참조해야할 범위를 좁혀 전달할때 더 좋은 결과를 얻기도함.</li>
+<li>(주의) index되어 있어야 참조가 가능함 : <strong>Check Indexing Status:</strong> "Chat" 패널의 "Context" 창에서 녹색 점으로 indexing 상태를 확인할 수 있습니다.
+<ul>
+<li>
+<p>세부사항</p>
+<p>요약</p>
+<ul>
+<li>Windsurf는 코드베이스 전체를 인식하기 위해 로컬 indexing 엔진을 사용합니다.</li>
+<li><strong>Automatic Indexing:</strong> 기본적으로 활성화되어 있습니다. (VS Code/JetBrains 확장과 다름)</li>
+<li><strong>Embedding Generation:</strong> 코드를 이해하기 위해 embeddings을 생성합니다. 이를 통해 자연어 또는 코드 조각으로 검색할 수 있습니다.</li>
+<li><strong>Local Storage:</strong> 코드 조각은 embedding 생성을 위해 원격 서버로 보내지만, 코드나 embedding은 원격으로 저장되지 않고 기기에 저장됩니다.</li>
+<li>최초 indexing 시 CPU 자원을 소모하지만, 한 번만 발생하며 5-10분 정도 소요됩니다.</li>
+<li><strong>Resource Requirements:</strong> 5,000개 파일 작업 공간의 경우 약 300MB의 RAM이 필요합니다.</li>
+</ul>
+<p><strong>Indexed Files 확인:</strong></p>
+<ul>
+<li>직접적으로 indexing된 파일 목록을 볼 수는 없습니다.</li>
+<li><strong>Check Indexing Status:</strong> "Chat" 패널의 "Context" 창에서 녹색 점으로 indexing 상태를 확인할 수 있습니다.</li>
+<li><strong>Excluded Files:</strong> 기본적으로 <strong><code>.gitignore</code></strong>, <strong><code>node_modules</code></strong>, 숨김 경로 (<strong><code>.</code></strong>)에 지정된 파일/폴더 및 <strong><code>.codeiumignore</code></strong> 파일에 지정된 파일/폴더는 indexing되지 않습니다.</li>
+<li><strong>.codeiumignore:</strong> **<code>.gitignore</code>**와 동일한 문법을 사용하여 indexing에서 제외할 파일을 추가적으로 설정할 수 있습니다. repo root에 위치해야 합니다.</li>
+<li><strong>Workspace Size Limits:</strong> "Max Workspace Size (File Count)" 설정으로 indexing할 최대 파일 수를 제한할 수 있습니다. (RAM 10GB 사용자 기준 10,000개 이하 권장)</li>
+</ul>
+<p><strong>주의할 점:</strong></p>
+<ul>
+<li>Indexing된 파일 목록을 직접 볼 수 없다는 점. Excluded Files에 주의하여 필요한 파일이 indexing에서 제외되지 않았는지 확인해야 합니다.</li>
+<li><strong><code>.codeiumignore</code></strong> 파일을 활용하여 indexing 대상 파일을 세밀하게 조정할 수 있다는 점.</li>
+<li>Workspace 크기가 커질수록 더 많은 자원을 소모하므로 "Max Workspace Size (File Count)" 설정을 적절하게 조정해야 한다는 점.</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h3>Docs (내부/외부)</h3>
+<ul>
+<li>
+<p>bulit-in documentation: (@docs) 로 선택</p>
+<pre><code>@docs:windsurf-help-docs how does memory management work in windsurf? 
+</code></pre>
+</li>
+<li>
+<p>외부 링크에 있는 documentation</p>
+<ul>
+<li>가령 <a href="https://pytorch-lightning.readthedocs.io/en/1.5.0/">https://pytorch-lightning.readthedocs.io/en/1.5.0/</a> 에 있는 doc을 windsurf 내부에서 참조해서 쓰고 싶을때</li>
+<li>아래 형식으로 cascade chat에 입력</li>
+</ul>
+<pre><code class="hljs language-jsx">@<span class="hljs-attr">docs</span>:(doc-name) link
+@<span class="hljs-attr">docs</span>:pytorch-lightning-v1<span class="hljs-number">.5</span><span class="hljs-number">.0</span> <span class="hljs-attr">https</span>:<span class="hljs-comment">//pytorch-lightning.readthedocs.io/en/1.5.0/</span>
+
+</code></pre>
+</li>
+</ul>
+<h3>ETC</h3>
+<ul>
+<li>린터 통합: 자동으로 린팅 오류를 식별하고 수정합니다.</li>
+<li>모델 선택: 필요에 따라 다양한 AI 모델 중에서 선택할 수 있습니다.</li>
+<li>웹 검색: @ 다음에 URL을 사용하여 인터넷에서 컨텍스트를 가져옵니다.</li>
+<li>이미지 업로드: 이미지에서 코드를 생성합니다(예: 웹사이트 스크린샷에서 HTML/CSS 생성).</li>
+</ul>
+<h2>WindsurfTab</h2>
+<ul>
+<li>WindsurfTab은 코드 작성 워크플로우를 향상시키기 위한 기능입니다. autocomplete, supercomplete, tab to jump, tab to import 기능을 통합된 UX(tab)으로 제공합니다. 별도의 모델을 사용하여 코드 문맥을 파악하고 관련된 제안, 점프 및 임포트를 제공합니다.</li>
+<li><strong>문맥 활용 :</strong> WindsurfTab은 더 나은 자동 완성을 위해 다음과 같은 요소가 고려됩니다.
+<ul>
+<li><strong>최근에 본 파일 (Recently Viewed Files):</strong> 다른 파일에서 작업한 코드가 제안에 영향을 줍니다.</li>
+<li><strong>터미널 명령어 및 출력 (Terminal Commands &#x26; Outputs):</strong> 터미널에서 실행한 명령어와 그 결과가 의도를 파악하는 데 사용됩니다 (예: 임포트 실패 후 패키지 설치 제안).</li>
+<li><strong>Cascade 대화 (Cascade Conversations):</strong> Cascade에서의 이전 상호 작용이 문맥을 유지하고 관련 연속을 제공하는 데 사용됩니다 (해당되는 경우).</li>
+</ul>
+</li>
+</ul>
+<p><img src="/windsurf_assets/image%204.png" alt="image.png"></p>
+<h3>Autocomplete</h3>
+<ul>
+<li><strong>클립보드를 문맥으로 사용 (선택 사항):</strong>
+<ul>
+<li><strong>사용법:</strong> 이 기능은 <em>기본적으로 비활성화</em>되어 있습니다.
+<ul>
+<li><strong>Advanced Settings ></strong> . "Windsurf Tab" 또는 "Completion Context"와 관련된 옵션을 찾아 "Clipboard as Context"를 활성화하십시오.</li>
+</ul>
+</li>
+<li><strong>장점:</strong> 다른 소스에서 코드 스니펫을 복사하면 Windsurf Tab이 현재 파일에서 관련 완성을 제안하는 데 사용할 수 있습니다.</li>
+<li><strong>개인 정보 보호 고려 사항:</strong> 이 기능을 활성화할 때 민감한 정보에 주의하십시오.</li>
+</ul>
+</li>
+</ul>
+<h3>Supercomplete</h3>
+<p>Supercomplete는 Windsurf의 고급 AI 기반 기능으로, 단순한 자동 완성(Autocomplete)을 넘어 사용자의 의도를 예측합니다. 단순히 다음 줄의 코드를 제안하는 것이 아니라 의도를 파악합니다. 이는 Windsurf Tab 시스템의 일부로서, 단 하나의 키 입력으로 다양한 코드 변경을 가능하게 합니다.</p>
+<table>
+<thead>
+<tr>
+<th>기능 (Function)</th>
+<th>설명 (Description)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>오타 수정 (Typo Sanitation)</td>
+<td>철자 및 구문 오류 자동 수정</td>
+</tr>
+<tr>
+<td>변수 이름 변경 (Variable Renaming)</td>
+<td>문맥 기반 더 나은 변수 이름 제안</td>
+</tr>
+<tr>
+<td>스키마 업데이트 (Schema Updates)</td>
+<td>코드 요구 사항에 따른 데이터 스키마 자동 수정</td>
+</tr>
+<tr>
+<td>이벤트 핸들러 바인딩 (Event Handler Binding)</td>
+<td>적절한 위치에 자동 이벤트 핸들러 연결</td>
+</tr>
+<tr>
+<td>코드 리팩토링 (Code Refactoring)</td>
+<td>코드 품질 및 효율성을 개선하기 위한 제안 제공</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>Auto complete 과의 차이점</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Feature</th>
+<th>Autocomplete</th>
+<th>Supercomplete</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Scope</td>
+<td>Current Cursor position only</td>
+<td>Considers entire code context</td>
+</tr>
+<tr>
+<td>Intention</td>
+<td>Simple insertion of code</td>
+<td>Predicts intent, suggests code changes (inserts, deletes, edits)</td>
+</tr>
+<tr>
+<td>Independence from location</td>
+<td>Dependent on cursor position</td>
+<td>Context-aware, works independently of cursor position</td>
+</tr>
+</tbody>
+</table>
+<h3>Tab to Import</h3>
+<p>Tab to Import는 파일에 새로운 의존성(dependency)을 정의한 후, 힌트가 표시될 때**<code>tab</code>**키를 누르면 해당 의존성을 파일 상단에 자동으로 import하는 기능입니다. 커서는 현재 위치에 그대로 유지됩니다.</p>
+<ul>
+<li>파일에서 새로운 라이브러리나 모듈을 사용합니다</li>
+<li>Windsurf가 import 힌트를 표시합니다</li>
+<li>**<code>tab</code>**키를 누르면 자동으로 파일 상단에 import 구문이 추가됩니다</li>
+<li>작업 중인 위치에서 커서가 이동하지 않고 계속 작업할 수 있습니다</li>
+</ul>
+<h3>Tab to Jump</h3>
+<ul>
+<li><strong>사용법:</strong> 키워드 (예: 함수 이름, 변수 이름)를 입력하고 <strong>Tab</strong> 키를 누릅니다. Windsurf Tab이 점프 가능한 위치를 감지하면 점프 옵션이 있는 위젯을 표시합니다.</li>
+<li><strong>(v 1.5.6)</strong> 점프 거리가 두 배 이상 늘어나 코드베이스 내에서 더 멀리 이동할 수 있습니다. 점프 위젯의 UI가 새로워졌습니다.</li>
+<li>Tab to Jump 위젯을 <em>클릭</em>하여 원하는 점프 위치를 선택할 수 있습니다.</li>
+</ul>
+<h1>Command Mode (Inline AI): 대상 코드 편집</h1>
+<p>코드를 선택하고 <code>Cmd+I</code>(Mac) 또는 <code>Ctrl+I</code>(Windows/Linux)를 사용하여 접근:</p>
+<table>
+<thead>
+<tr>
+<th>예시 케이스</th>
+<th>설명</th>
+<th>예시</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Code Modification, AI-Powered Code Suggestions</td>
+<td>선택한 코드에 대한 특정 변경을 요청합니다.  AI 툴을 사용하여 코드 변경을 제안받고 적용할 수 있습니다.</td>
+<td>"이 함수의 시간 복잡도를 개선해줘."</td>
+</tr>
+<tr>
+<td>Docstring Generation, Documentation</td>
+<td>선택한 함수, 클래스 등에 대한 독스트링을 자동으로 생성합니다.  코드의 문서화를 간소화합니다.</td>
+<td>함수를 선택하고 Cmd+I를 누르면 자동으로 함수에 대한 설명을 포함하는 독스트링 생성</td>
+</tr>
+<tr>
+<td>Code Refactoring, Readability, Performance, Maintainability</td>
+<td>선택한 코드를 개선하기 위한 제안을 받고 리팩토링을 수행합니다. 코드 가독성, 성능, 유지보수성을 향상시킬 수 있습니다.</td>
+<td>반복되는 코드 블록을 선택하고 Cmd+I를 눌러 함수로 추출 제안을 받음</td>
+</tr>
+<tr>
+<td>Terminal Integration, Command Generation, Information Retrieval</td>
+<td>선택한 코드 또는 문제에 대한 터미널 명령어를 생성하거나, 관련 정보를 터미널에서 검색하는 것을 지원받습니다.</td>
+<td>특정 라이브러리 설치 명령어를 생성하거나, 에러 메시지에 대한 해결책을 검색</td>
+</tr>
+</tbody>
+</table>
+<h1>Flows: 맥락을 실시간으로 이해하는 AI</h1>
+<p><a href="/windsurf_assets/windsurf-continue.mp4">windsurf-continue.mp4</a></p>
+<ul>
+<li>변수명 바꾸고, cascade chat 에서 continue 라고 입력하면 코드베이스 전체에서 해당 변수명의 변경에 따른 적절한 수정을 진행해줌</li>
+</ul>
+<h1>컨텍스트 보존 및 개인화</h1>
+<ul>
+<li><strong>자동화된 메모리</strong>: 작업 패턴을 학습하고 향후 사용을 위해 정보 저장</li>
+<li><strong>명시적 메모리</strong>: 특정 컨텍스트를 유지하거나 환경 설정을 지정하는 사용자 정의 규칙</li>
+<li>문서 환경 설정 및 코딩 스타일을 위한 <code>.windsurfrules</code> 파일을 통해 관리
+<ul>
+<li>project 단위의 rule</li>
+</ul>
+</li>
+<li>모든 코드 베이스에 적용되는 global rule</li>
+</ul>
+<h2>메모리 (Memory)</h2>
+<h3><strong>자동 메모리 (Automated Memories)</strong></h3>
+<ul>
+<li><strong>목표</strong>: Cascade와 대화할 때 중요한 내용을 자동으로 기억해 줍니다.</li>
+<li><strong>만드는 방법</strong>:
+<ul>
+<li>Cascade와 대화하는 동안 자동으로 생성됩니다.</li>
+<li>"create a memory of..."와 같이 Cascade에게 직접 요청해서 만들 수도 있습니다.</li>
+</ul>
+</li>
+<li><strong>저장 위치</strong>: 각 워크스페이스(workspace)에 연결되어 저장됩니다.</li>
+<li><strong>불러오기</strong>: 현재 상황에 맞는 정보가 자동으로 나타납니다.</li>
+<li><strong>비용</strong>: 크레딧(credits)을 사용하지 않습니다.</li>
+<li><strong>이럴 때 좋아요</strong>:
+<ul>
+<li>프로젝트(project)를 진행하면서 나오는 중요한 내용</li>
+<li>사용자(user)의 선호도나 대화 중에 결정된 사항</li>
+<li>중요한 코드 스니펫(code snippets)이나 아키텍처 관련 결정</li>
+<li>여러 세션(session)에서 반복적으로 필요할 수 있는 정보</li>
+</ul>
+</li>
+</ul>
+<h3><strong>명시적 메모리 (Explicit Memory)</strong></h3>
+<ul>
+<li><strong>종류</strong>:
+<ol>
+<li><strong>글로벌 규칙 (Global Rules)</strong> (<code>global_rules.md</code>): 모든 워크스페이스에 공통으로 적용됩니다.</li>
+<li><strong>로컬 규칙 (Local Rules)</strong> (<code>.windsurfrules</code>): 특정 워크스페이스에만 적용됩니다.</li>
+</ol>
+</li>
+<li><strong>제한 사항</strong>: 파일 하나당 6,000자 (총 12,000자)까지 쓸 수 있습니다.</li>
+<li><strong>관리 방법</strong>: Windsurf Settings > Edit Rules에서 수정할 수 있습니다.</li>
+<li><strong>이럴 때 좋아요</strong>:
+<ul>
+<li>프로젝트 전반에 걸쳐 지켜야 할 규칙과 표준</li>
+<li>전체 프로젝트에 적용되는 코딩 컨벤션(coding conventions)</li>
+<li>팀(team)에서 정한 규칙이나 요구 사항</li>
+<li>Document 설정이나 코딩 스타일 관련 선호도</li>
+</ul>
+</li>
+</ul>
+<h2>규칙 (Rules)</h2>
+<h3><strong>이런 경우에 사용</strong></h3>
+<ul>
+<li>프로젝트에 적용할 코딩 표준이 정해져 있을 때</li>
+<li>코드베이스(codebase)를 다룰 때 항상 일관된 결과를 얻고 싶을 때</li>
+<li>특정 포맷팅(formatting)이나 문서화 방식을 강제하고 싶을 때</li>
+<li>모든 대화에 적용되는 개인 설정을 유지하고 싶을 때</li>
+</ul>
+<h3><strong>Rules 작성 관련 팁</strong></h3>
+<ul>
+<li><a href="https://codeium.com/windsurf/directory">https://codeium.com/windsurf/directory</a> 에서 구체적인 case by case 예시를 볼 수 있습니다.
+<ul>
+<li>규칙은 최대한 간단하고 명확하게 작성</li>
+<li>글머리 기호나 마크다운(markdown)을 사용하여 가독성</li>
+<li>나중에 필요할 수 있는 중요한 내용은 메모리로 저장</li>
+<li>모든 프로젝트에 적용되는 표준은 글로벌 규칙으로 설정</li>
+<li>프로젝트별 요구 사항은 로컬 규칙으로 설정</li>
+</ul>
+</li>
+</ul>
+<h2><strong>설정 및 관리</strong></h2>
+<p><img src="/windsurf_assets/image%205.png" alt="image.png"></p>
+<ul>
+<li><strong>자동 메모리 (Automated Memories)</strong>: Settings > Manage Cascade-Generated Memories 또는 Cascade 창의 점 3개 메뉴에서 관리할 수 있습니다.</li>
+<li><strong>규칙 (Rules)</strong>: Windsurf Settings > Edit Rules에서 수정할 수 있습니다.</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>기능</th>
+<th>자동 메모리</th>
+<th>글로벌 규칙 (<code>global_rules.md</code>)</th>
+<th>로컬 규칙 (<code>.windsurfrules</code>)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>생성 방법</strong></td>
+<td>Cascade 명령으로 자동 생성 또는 수동 생성</td>
+<td>텍스트 편집기로 직접 작성</td>
+<td>텍스트 편집기로 직접 작성</td>
+</tr>
+<tr>
+<td><strong>적용 범위</strong></td>
+<td>해당 워크스페이스에만 적용</td>
+<td>모든 워크스페이스에 적용</td>
+<td>특정 워크스페이스에만 적용</td>
+</tr>
+<tr>
+<td><strong>유지 여부</strong></td>
+<td>세션이 종료되어도 유지</td>
+<td>세션이 종료되어도 유지</td>
+<td>세션이 종료되어도 유지</td>
+</tr>
+<tr>
+<td><strong>비용</strong></td>
+<td>무료 (크레딧 소모 없음)</td>
+<td>무료 (크레딧 소모 없음)</td>
+<td>무료 (크레딧 소모 없음)</td>
+</tr>
+<tr>
+<td><strong>이럴 때 좋아요</strong></td>
+<td>맥락 유지, 중요한 세부 사항, 의사 결정 기록</td>
+<td>프로젝트 표준, 코딩 규칙</td>
+<td>프로젝트별 요구 사항, 코딩 스타일</td>
+</tr>
+</tbody>
+</table>
+<h2>(Advanced) 디렉토리별 메모리, Rule 관리 전략</h2>
+<h3>Prompt Context란 ?</h3>
+<p>Prompt Context 접근 방식은 코드 저장소 내에서 작업하는 AI 어시스턴트에게 디렉토리별 가이드를 제공해 어떤 컨텍스트와 룰을 우선시 할 것인지에 대한 관리를 좀 더 쉽게 할 수 있는 방법론입니다.</p>
+<h3>설정 방법</h3>
+<ul>
+<li><a href="https://gist.github.com/miroblog/dc5e946e0437a4b054b78d8f166af537">Prompt Context Rules</a></li>
+</ul>
+<ol>
+<li>위 rule을 .windsurfrules에 명시합니다.</li>
+<li>특수 지시사항이 필요한 하위 디렉토리에 디렉토리별 컨텍스트(.context.md), 규칙(.AI.md) 파일을추가합니다</li>
+</ol>
+<p>특정 디렉토리 내에서의 작업 X(코드 수정 및 생성 등)에 필요한 규칙(formatting rule 등) 과 컨텍스트(예시 snippet 등) 을 개발자가 효과적으로 통제할 수 있습니다.</p>
+<h2>(Advanced) Memory Bank를 통한 관리 전략</h2>
+<h3><strong>Memory Bank란 무엇인가?</strong></h3>
+<p>Memory Bank는 Windsurf AI가 여러 세션에 걸쳐 프로젝트 컨텍스트를 유지할 수 있게 해주는 구조화된 문서화 시스템입니다. AI의 "메모리" 역할을 하는 마크다운 파일들을 생성하고 업데이트하여 더 일관되고 효율적인 지원을 가능하게 합니다.</p>
+<ul>
+<li>세션 간에 프로젝트 컨텍스트 유지</li>
+<li>프로젝트 세부 정보 자동 문서화</li>
+<li>AI가 프로젝트 패턴과 제약 조건을 이해하도록 보장</li>
+<li>반복적인 설명 감소</li>
+<li>코드 일관성 향상</li>
+</ul>
+<h3><strong>설정 방법</strong></h3>
+<p><strong>1단계: Memory Bank 규칙 생성</strong></p>
+<ul>
+<li><a href="https://gist.github.com/miroblog/7a60b45b572dc4922aac21de57a0915f">Memory Bank Rules</a></li>
+</ul>
+<ol>
+<li>Memory Bank 규칙을 복사</li>
+<li>windsurf 설정 → Rules로 이동</li>
+<li>.windsurfrules 섹션에 규칙을 붙여넣기</li>
+<li>설정 저장</li>
+</ol>
+<p><strong>2단계: Memory Bank 초기화</strong></p>
+<pre><code>1. windsurf AI와 새 채팅 시작
+2. 다음과 같이 입력: `initialize memory bank`
+3. windsurf가 memory bank 폴더 구조를 생성하도록 함
+</code></pre>
+<h3><strong>Memory Bank 구조</strong></h3>
+<pre><code>1. **projectbrief.md** - 기초 문서
+    - 핵심 요구사항 및 목표
+    - 프로젝트 범위
+2. **productContext.md** - 제품 세부 정보
+    - 이 프로젝트가 존재하는 이유
+    - 해결하는 문제점
+    - 사용자 경험 목표
+3. **systemPatterns.md** - 기술 아키텍처
+    - 시스템 아키텍처
+    - 주요 디자인 패턴
+    - 컴포넌트 관계
+4. **techContext.md** - 기술적 세부 사항
+    - 사용된 기술
+    - 개발 설정
+    - 의존성
+5. **activeContext.md** - 현재 작업
+    - 최근 변경 사항
+    - 다음 단계
+    - 활성 의사 결정
+6. **progress.md** - 프로젝트 상태
+    - 잘 작동하는 것
+    - 구축해야 할 것
+    - 알려진 문제점
+</code></pre>
+<h3><strong>Memory Bank 사용 방법</strong></h3>
+<p><strong>Plan Mode</strong></p>
+<pre><code>구현 전에 windsurf가 기능 계획을 도와주길 원할 때:
+
+1. 새 채팅 시작
+2. 다음과 같이 입력: `use plan mode`
+3. 계획하고 싶은 내용 설명
+4. windsurf가 memory bank 파일을 읽고 계획을 도와줌
+
+예시:
+
+use plan mode
+Let's plan how to implement user authentication in our app
+
+
+</code></pre>
+<p><strong>Implementation Mode</strong></p>
+<pre><code>기능을 구현하고 싶을 때:
+
+1. 구현하고 싶은 내용 설명
+2. windsurf가 memory bank를 읽고 프로젝트 패턴에 따라 구현
+</code></pre>
+<p><strong>Memory Bank 업데이트</strong></p>
+<pre><code>Memory Bank는 windsurf와 작업할 때 자동으로 업데이트되지만, 수동으로 업데이트를 트리거할 수 있습니다:
+
+1. 다음과 같이 입력: `update memory bank`
+2. windsurf가 모든 파일을 검토하고 문서를 업데이트
+</code></pre>
+<p><strong>사용팁</strong></p>
+<pre><code>- 작업 설명 시 구체적으로 설명
+- 정확성을 보장하기 위해 memory bank 파일을 가끔 검토
+- 새 프로젝트의 경우, 초기화할 때 초기 컨텍스트 제공
+- 복잡한 기능은 구현 전에 plan mode 사용
+- 중요한 프로젝트 변경 후 memory bank 업데이트
+- windsurf가 memory bank를 무시하는 것 같다면, "use plan mode"를 명시적으로 지정
+- 구현이 프로젝트 패턴과 일치하지 않는 경우, systemPatterns.md 파일 확인
+- 대규모 프로젝트의 경우, memory-bank 폴더에 추가 컨텍스트 파일 생성 고려
+</code></pre>
+<h1>MCP 서버 관련 기능</h1>
+<p>Model Context Protocol(MCP)은 개발 환경에서 직접 외부 서비스 및 API에 연결할 수 있도록 Windsurf의 기능을 확장하는 기능입니다.</p>
+<p>MCP를 통해 Windsurf는 다음을 수행할 수 있습니다:</p>
+<ul>
+<li>GitHub, YouTube 및 다양한 데이터 소스와 같은 플랫폼에 연결</li>
+<li>AI가 웹 서비스와 상호 작용하고 실시간 정보를 가져올 수 있도록 지원</li>
+<li>로컬 코드베이스를 넘어 기능 확장</li>
+</ul>
+<h2>MCP 서버 셋팅</h2>
+<ul>
+<li>cascade 오른쪽 하단 망치</li>
+</ul>
+<p><img src="/windsurf_assets/image%206.png" alt="image.png"></p>
+<ul>
+<li>
+<p>오른쪽 상단 메뉴 → Windsurf Settings (cmd +, )</p>
+<p><img src="/windsurf_assets/image%207.png" alt="image.png"></p>
+</li>
+<li>
+<p>Add server + , 또는 Add custom server + 를 통해 설정</p>
+</li>
+</ul>
+<p><img src="/windsurf_assets/image%208.png" alt="image.png"></p>
+<p><img src="/windsurf_assets/image%209.png" alt="image.png"></p>
+<p>아래가 포함된 <code>mcp_config.json</code> 파일 수정을 통해 설정</p>
+<ul>
+<li>(tip) npx가 안될땐 docker로 시도</li>
+</ul>
+<pre><code># example sequential-thinking
+{
+  "mcpServers": {
+    "sequential-thinking": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-sequential-thinking"
+      ]
+    }
+}
+</code></pre>
+<p>현재 windsurf 제한 사항</p>
+<ul>
+<li>도구만 지원하며 이미지를 포함하는 출력은 지원하지 않음</li>
+<li>stdio 전송 유형을 사용하는 서버 필요</li>
+</ul>
+<h2>MCP Server Curated된 웹사이트</h2>
+<ul>
+<li><a href="https://glama.ai/mcp/servers">https://glama.ai/mcp/servers</a></li>
+<li><a href="https://opentools.com/">https://opentools.com/</a></li>
+<li><a href="https://smithery.ai/">https://smithery.ai/</a></li>
+<li><a href="https://mcp.so/">https://mcp.so/</a></li>
+<li><a href="https://mcp.composio.dev/">https://mcp.composio.dev/</a></li>
+</ul>
+<p>원하는 3rd party tool integration을 지원하는 mcp 서버가 market place에 있는지 확인</p>
+<p>없다면 custom mcp tool을 python이나 typescript로 제작</p>
+<ul>
+<li><a href="https://github.com/modelcontextprotocol/typescript-sdk">https://github.com/modelcontextprotocol/typescript-sdk</a></li>
+<li><a href="https://github.com/modelcontextprotocol/python-sdk">https://github.com/modelcontextprotocol/python-sdk</a></li>
+</ul>
+<h2>예시</h2>
+<h3>예시1 - Sequential Thinking</h3>
+<ul>
+<li>복잡한 태스크를 순차적으로 생각해 풀어낼때 유용</li>
+</ul>
+<pre><code>{
+  "mcpServers": {
+    "sequential-thinking": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-sequential-thinking"
+      ]
+    }
+}
+</code></pre>
+<h3>예시2 - Brave Search</h3>
+<ul>
+<li>windsurf built-in websearch로 검색이 잘 되지 않을때 시도</li>
+</ul>
+<pre><code>{
+  "mcpServers": {
+    "brave-search": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-brave-search"
+      ],
+      "env": {
+        "BRAVE_API_KEY": "API_KEY" 
+      }
+    }
+}
+</code></pre>
+<h3>예시3 - Slack Integration (docker)</h3>
+<ul>
+<li><a href="https://github.com/lars-hagen/slack-user-mcp">https://github.com/lars-hagen/slack-user-mcp</a></li>
+</ul>
+<pre><code>{
+  "mcpServers": {
+    "slack": {
+      "command": "docker",
+      "args": [
+        "run",
+        "-i",
+        "--rm",
+        "-e",
+        "SLACK_TOKEN",
+        "-e",
+        "SLACK_TEAM_ID",
+        "mcp/slack-user"
+      ],
+      "env": {
+        "SLACK_TOKEN": "xoxp-your-user-token",
+        "SLACK_TEAM_ID": "T01234567"
+      }
+    }
+  }
+}
+</code></pre>
+<h3>예시4 - Youtube Integration</h3>
+<ul>
+<li>유튜브 비디오/채널 검색, 자막 다운로드 등</li>
+</ul>
+<pre><code>{
+  "mcpServers": {
+    "yt-dlp": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@kevinwatt/yt-dlp-mcp"
+      ]
+    }
+}
+</code></pre>
+<blockquote>
+<p>ex) go to official windsurf youtube channel and list up all recent videos and download the captions and save it in ./captions directory</p>
+</blockquote>
+<h3>예시5- Browser Tools</h3>
+<ul>
+<li>UI 개발, 디버깅에 유용</li>
+<li>chrome console log, xhr network errors/logs</li>
+<li>브라우저 스크린샷 &#x26; 어떤 ui가 클릭되었는지 cascade내에서 @ 참조 가능</li>
+</ul>
+<pre><code>https://browsertools.agentdesk.ai/installation
+1. chrome extension 설치 -> 2. mcp 설정
+</code></pre>
+<h1>AI 개발 방법론 (case by case 보충 필요)</h1>
+<h2>Meta Prompting</h2>
+<p>메타 프롬프팅은 직접적인 지시 (일일이 모든 단계를 직접 나열하는 대신) AI에게 포괄적인 계획 수립을 요청하는 방식입니다. 이를 통해 AI가 복잡한 작업을 체계화하고 가이드하는 방식입니다.  예를 들어, "Tech stack" 선택이나 "Authentication" 처리 같은 작업을 직접 적는 대신, "Slack 봇을 만들려고 하는데, 봇 설정에 필요한 단계별 계획을 세울 때 Best Practice와 잠재적인 문제점을 고려해서 가이드해 줄 수 있어?" 와 같이 AI에게 물어볼 수 있습니다.</p>
+<h2>Plan → Implement → Feedback → … → Update Memory</h2>
+<ol>
+<li>먼저 계획(Plan) 단계에서는 무엇을 만들지 명확히 정의하고, 현재 코드 구조를 분석한 후, AI가 단계별 접근 방식을 제안하며 테스트 케이스를 먼저 작성하도록 지시 .</li>
+<li>구현(Implement) 단계에서는 AI가 계획에 따라 코드를 생성하고, 기능 검증을 위한 테스트를 작성하며, 여러 파일을 한 번에 수정하고 필요한 명령어를 실행</li>
+<li>피드백(Feedback) 단계에서는 테스트를 실행하여 요구사항 충족 여부를 확인하고, 오류와 문제점을 찾아내며, 코드 성능을 확인하고 코드 품질을 검토</li>
+<li>개선 구현(Implement) 단계에서는 발견된 오류를 수정하고, 코드를 정리하고 개선하며, 성능을 최적화하고 코드에 설명을 추가</li>
+<li>마지막으로 메모리 업데이트(Update Memory) 단계에서는 중요한 결정사항을 별도의 메모리(.md)에 기록하고, 반복되는 패턴을 식별하며, 프로젝트 지식을 축적하고 개발자의 코딩 스타일을 이해하도록 유도</li>
+</ol>
+<h1>Common Workflow</h1>
+<h2>프로젝트 생성 및 설정</h2>
+<p>예시 워크플로우:</p>
+<ol>
+<li>Cascade에 생성하려는 프로젝트 설명</li>
+<li>Windsurf가 프로젝트 구조와 필요한 파일 생성</li>
+<li>종속성 설치를 위한 터미널 명령 실행</li>
+<li>개발 준비 완료</li>
+</ol>
+<h2>피쳐 개발</h2>
+<p>Windsurf를 통한 효율적인 코딩 워크플로우:</p>
+<ol>
+<li>필요한 기능에 대해 명확한 지시 제공</li>
+<li>일관성을 유지하기 위해 기존 코드 패턴 참조</li>
+<li>Cascade에 적절한 컨텍스트를 제공하기 위해 @ 멘션 사용 (정확한 rule과 context 제공)</li>
+</ol>
+<h2>디버깅 및 오류 해결</h2>
+<ul>
+<li>
+<p>cascade로 보내기</p>
+<ul>
+<li>problems 하단 탭 확인 → send all to cascade</li>
+</ul>
+<p><img src="/windsurf_assets/image%2010.png" alt="image.png"></p>
+<ul>
+<li>editor 내에서 popup box 확인 → explain and fix</li>
+</ul>
+<p><img src="/windsurf_assets/image%2011.png" alt="image.png"></p>
+<ul>
+<li>terminal 에서 drag → cmd + L</li>
+</ul>
+<p><img src="/windsurf_assets/image%2012.png" alt="image.png"></p>
+</li>
+</ul>
+<p>간소화된 디버깅 프로세스:</p>
+<ol>
+<li>개발 중 오류 발생</li>
+<li>Cascade와 오류 메시지 및 관련 파일 공유</li>
+<li>분석 및 잠재적 해결책 확인</li>
+<li>제안된 수정 사항 적용 또는 디버깅 단계 수행</li>
+</ol>
+<h2><strong>리팩토링 및 코드 품질</strong></h2>
+<p>Windsurf를 사용하여 고품질 코드베이스를 유지할 수 있습니다.</p>
+<p><strong>기능:</strong></p>
+<ul>
+<li>특정 코드 섹션을 리팩토링하기 위해 Inline AI 사용</li>
+<li>포괄적인 문서 및 독스트링 생성</li>
+<li>프로젝트 전체에 일관된 코딩 스타일 적용</li>
+<li>기존 코드의 성능 최적화</li>
+</ul>
+<p><strong>권장 워크플로우:</strong></p>
+<ol>
+<li>리팩토링/ docstring 생성이 필요한 코드 선택</li>
+<li>특정 변경을 요청하기 위해 Command Mode(Cmd/Ctrl + I) 사용</li>
+<li>제안된 개선 사항 검토 및 수락</li>
+</ol>
+<h2>UI 개발</h2>
+<ul>
+<li><a href="https://docs.codeium.com/windsurf/previews">https://docs.codeium.com/windsurf/previews</a></li>
+</ul>
+<p><a href="/windsurf_assets/browser-preview-demo.mp4">browser-preview-demo.mp4</a></p>
+<p>Preview 기능을 통한 간소화된 웹 개발</p>
+<ul>
+<li>실시간으로 변경 사항을 확인하기 위해 IDE 내 미리보기 사용</li>
+<li>이미지나 설명에서 HTML/CSS/JS 생성</li>
+<li>UI 요소를 클릭하여 편집을 위해 cascade로 보내 레퍼런스로 참조해 디버깅</li>
+</ul>
+<h2>터미널 작업에서 AI 활용</h2>
+<p>향상된 터미널 경험</p>
+<ul>
+<li>터미널 명령에 대한 AI 지원 받기</li>
+<li>자동화된 명령 실행을 위한 Turbo Mode 사용</li>
+<li>추가 지원을 위한 명령 출력 분석</li>
+<li>최소한의 개입으로 복잡한 명령 시퀀스 실행</li>
+</ul>
+<p>예시 워크플로우</p>
+<ol>
+<li>적절한 터미널 명령에 대해 Cascade에 문의</li>
+<li>제안된 명령 검토</li>
+<li>명령 실행(수동 또는 Turbo Mode로 자동)</li>
+<li>terminal log 기반으로 도움 받기</li>
+</ol>
+<h1>상세 설정</h1>
+<h2>Cascade 설정</h2>
+<h3>Auto-Fix Lints</h3>
+<ul>
+<li><strong>설정</strong>: On/Off</li>
+<li><strong>기능</strong>: 활성화되면 Cascade가 생성된 코드의 린팅 오류를 자동으로 수정합니다. 비활성화되면 자동 수정 없이 코드가 생성됩니다.</li>
+</ul>
+<h3>모델 선택</h3>
+<p>작업 복잡성 및 예산에 따라 다양한 AI 모델 중에서 선택:</p>
+<ul>
+<li><strong>Gemini Flash</strong>: 간단한 작업에 적합, 낮은 비용</li>
+<li><strong>GPT-4o / Claude 3.5 / Claude 3.7</strong>: 유사한 비용, 높은 품질</li>
+<li><strong>Claude 3.7 Thinking</strong>: 최고 품질, 최고 비용</li>
+</ul>
+<p>모델 선택 고려 사항:</p>
+<ul>
+<li>작업 복잡성 요구 사항</li>
+<li>속도 vs 품질 트레이드오프</li>
+<li>크레딧 소비율</li>
+</ul>
+<h2>터미널 설정</h2>
+<h3>터미널 자동 실행(Turbo Mode)</h3>
+<ul>
+<li><strong>설정</strong>: On/Off</li>
+<li><strong>기능</strong>: 활성화되면 Cascade가 허용/차단 목록 규칙에 따라 수동 승인 없이 터미널 명령을 실행할 수 있습니다. 비활성화되면 모든 명령에 승인이 필요합니다.</li>
+</ul>
+<h3>명령 허용/차단 목록</h3>
+<p>자동으로 실행할 수 있는 명령 구성:</p>
+<ul>
+<li><strong>허용 목록</strong>: 항상 실행할 수 있는 명령 지정</li>
+<li><strong>차단 목록</strong>: 자동으로 실행하면 안 되는 명령 나열</li>
+<li>git 명령 허용: <code>git*</code></li>
+<li>파일 삭제 차단: <code>rm -rf*</code></li>
+</ul>
+<h2>Auto Complete 설정</h2>
+<h3>자동완성</h3>
+<ul>
+<li><strong>설정</strong>: On/Off</li>
+<li><strong>기능</strong>: 기본 코드 완성 기능을 켜거나 끕니다.</li>
+</ul>
+<h3>자동완성 속도</h3>
+<ul>
+<li><strong>설정</strong>: Fast/Normal</li>
+<li><strong>기능</strong>: 더 빠른 제안(Fast) 또는 더 신중한 타이밍(Normal) 중에서 선택합니다.</li>
+</ul>
+<h2>Supercomplete</h2>
+<ul>
+<li><strong>설정</strong>: On/Off</li>
+<li><strong>기능</strong>: 더 포괄적인 제안을 제공하는 향상된 컨텍스트 인식 코드 완성 기능을 켜거나 끕니다.</li>
+</ul>
+<h2>네비게이션 설정</h2>
+<h3>Tab to Jump</h3>
+<ul>
+<li><strong>설정</strong>: On/Off</li>
+<li><strong>기능</strong>: 활성화되면 Tab을 사용하여 import 문, 종속성 및 관련 코드 섹션으로 이동할 수 있습니다.</li>
+</ul>
+<h2>메모리 및 규칙 구성</h2>
+<h3>메모리 생성 및 관리</h3>
+<p>다음을 통해 접근:</p>
+<ul>
+<li>"create memory…" 로 Cascade에 메모리 생성 요청</li>
+<li>오른쪽 상단 "Manage Memory" 옵션을 통해 메모리 관리</li>
+</ul>
+<h3>규칙 유형</h3>
+<ul>
+<li><strong>전역 규칙</strong>: 모든 작업 공간에 적용</li>
+<li><strong>로컬 규칙</strong>(windsurfrules): 특정 프로젝트에 적용
+<ul>
+<li>프로젝트의 <code>.windsurfrules</code> 파일에 저장</li>
+<li>12,000자로 제한(전역 규칙과 결합)</li>
+<li>제한에 도달하면 전역 규칙이 우선</li>
+</ul>
+</li>
+</ul>
+<h3>규칙 모범 사례</h3>
+<ul>
+<li>글머리 기호 스타일로 형식 지정</li>
+<li>XML 태그로 관련 규칙 그룹화</li>
+<li>가장 중요한 규칙 우선시</li>
+<li>코딩 표준 및 패턴에 대해 구체적으로 명시</li>
+</ul>
+<h2>프리뷰 설정</h2>
+<ul>
+<li><strong>설정</strong>: On/Off</li>
+<li><strong>기능</strong>: 활성화되면 대화형 기능이 포함된 웹 애플리케이션의 IDE 내 미리보기를 제공합니다.</li>
+</ul>
+<p>다음을 통해 전환:</p>
+<ul>
+<li>설정 패널</li>
+<li>도구를 호출하거나 명시적으로 비활성화하는 프롬프트</li>
+</ul>
+<p>프리뷰 기능:</p>
+<ul>
+<li>UI 요소를 Cascade로 전송</li>
+<li>IDE 내 또는 별도의 브라우저에서 보기</li>
+<li>대상 편집을 위한 요소 선택</li>
+</ul>
+<h2>고급 구성 옵션</h2>
+<h3>Remote SSH 지원</h3>
+<ul>
+<li>원격 개발을 위한 내장 지원</li>
+<li>참고: Microsoft의 "Remote - SSH" 확장 프로그램을 설치하지 마세요(Windsurf와 충돌)</li>
+<li>로컬 dev 컨테이너 지원(원격 컨테이너는 지원하지 않음)</li>
+</ul>
+<h3>Gitignore 통합</h3>
+<ul>
+<li>인덱싱 및 검색을 위해 .gitignore 파일 준수</li>
+<li>특정 사용 사례를 위한 gitignore 파일 액세스 옵션</li>
+</ul>
+<h3>로컬 인덱싱 구성</h3>
+<ul>
+<li>Windsurf가 코드베이스를 인덱싱하는 방법 구성</li>
+<li>임베딩 생성 및 업데이트 빈도 설정</li>
+<li>코드베이스 크기 최적화 옵션</li>
+</ul>
+<h1>추가 리소스</h1>
+<h3><strong>Videos by Category and Skill Level</strong></h3>
+<table>
+<thead>
+<tr>
+<th>Category</th>
+<th>Skill Level</th>
+<th>Title</th>
+<th>Description</th>
+<th>Link</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Getting Started</strong></td>
+<td>Beginner</td>
+<td>The Windsurf Editor (World's First Agentic IDE)</td>
+<td>Overview of Windsurf as an agentic IDE</td>
+<td><a href="https://www.youtube.com/watch?v=3xk2qG2QPdU">Watch</a></td>
+</tr>
+<tr>
+<td><strong>Getting Started</strong></td>
+<td>Beginner</td>
+<td>The Making of Windsurf: Why We Built It</td>
+<td>Philosophy behind Windsurf's development</td>
+<td><a href="https://www.youtube.com/watch?v=FYtOlvblOX4">Watch</a></td>
+</tr>
+<tr>
+<td><strong>Getting Started</strong></td>
+<td>Beginner</td>
+<td>A Beginner's Guide to using MCP in Windsurf!</td>
+<td>Introduction to Model Context Protocol</td>
+<td><a href="https://www.youtube.com/watch?v=Y_kaQmhGmZk">Watch</a></td>
+</tr>
+<tr>
+<td><strong>Core Features</strong></td>
+<td>Beginner-Intermediate</td>
+<td>Turbo Mode in Windsurf</td>
+<td>Automated terminal command execution</td>
+<td><a href="https://www.youtube.com/watch?v=8hvbnMLpes4">Watch</a></td>
+</tr>
+<tr>
+<td><strong>Core Features</strong></td>
+<td>Beginner-Intermediate</td>
+<td>AI Flows: The Reason Why Cascade Feels Like Magic</td>
+<td>Deep dive into AI Flows collaboration</td>
+<td><a href="https://www.youtube.com/watch?v=ei1ftNJx6gI">Watch</a></td>
+</tr>
+<tr>
+<td><strong>Core Features</strong></td>
+<td>Beginner-Intermediate</td>
+<td>Cascade Memories: Personalize Windsurf with Custom Rules</td>
+<td>Creating and managing custom rules</td>
+<td><a href="https://www.youtube.com/watch?v=pOvI02of5oo">Watch</a></td>
+</tr>
+<tr>
+<td><strong>Core Features</strong></td>
+<td>Beginner-Intermediate</td>
+<td>Never Google A Terminal Command Again</td>
+<td>Generate and run terminal commands</td>
+<td><a href="https://www.youtube.com/watch?v=tHPKPj2tyn8">Watch</a></td>
+</tr>
+<tr>
+<td><strong>Core Features</strong></td>
+<td>Beginner-Intermediate</td>
+<td>Web Search Best Practices</td>
+<td>Optimize search functionality and credits</td>
+<td><a href="https://www.youtube.com/watch?v=moIySJ4d0UY">Watch</a></td>
+</tr>
+<tr>
+<td><strong>Core Features</strong></td>
+<td>Beginner-Intermediate</td>
+<td>Making of Windsurf's Cascade Bar</td>
+<td>Design and functionality of Cascade</td>
+<td><a href="https://www.youtube.com/watch?v=De5BZSaphZs">Watch</a></td>
+</tr>
+<tr>
+<td><strong>Advanced Techniques</strong></td>
+<td>Intermediate-Advanced</td>
+<td>Convert Figma Designs Into Code</td>
+<td>Transform Figma designs into code</td>
+<td><a href="https://www.youtube.com/watch?v=u1GYJPNnG9o">Watch</a></td>
+</tr>
+<tr>
+<td><strong>Advanced Techniques</strong></td>
+<td>Intermediate-Advanced</td>
+<td>Refine Code with Precision - Command Mode</td>
+<td>Using Command Mode for targeted edits</td>
+<td><a href="https://www.youtube.com/watch?v=PnktjL43fTc">Watch</a></td>
+</tr>
+<tr>
+<td><strong>Advanced Techniques</strong></td>
+<td>Intermediate-Advanced</td>
+<td>From Sketch to Website</td>
+<td>Implementing features from visual references</td>
+<td><a href="https://www.youtube.com/watch?v=G2bRYbW9VYk">Watch</a></td>
+</tr>
+<tr>
+<td><strong>Advanced Techniques</strong></td>
+<td>Intermediate-Advanced</td>
+<td>Turn Blog Post Tutorials into Full-Stack Applications</td>
+<td>Converting tutorials into applications</td>
+<td><a href="https://www.youtube.com/watch?v=X7Ipaou43o0">Watch</a></td>
+</tr>
+<tr>
+<td><strong>Advanced Techniques</strong></td>
+<td>Intermediate-Advanced</td>
+<td>Save Time with Cascade Autogenerated Memories</td>
+<td>Optimize workflow with autogenerated memories</td>
+<td><a href="https://www.youtube.com/watch?v=DKUe0ST_qi4">Watch</a></td>
+</tr>
+<tr>
+<td><strong>Advanced Techniques</strong></td>
+<td>Intermediate-Advanced</td>
+<td>Spend Less Time Approving with Automated Command</td>
+<td>Streamlining approval processes</td>
+<td><a href="https://www.youtube.com/watch?v=bdKZ_vGHh1o">Watch</a></td>
+</tr>
+<tr>
+<td><strong>Feature Updates</strong></td>
+<td>All Levels</td>
+<td>Windsurf Wave 4 Updates</td>
+<td>Preview, Tab to Import, Suggested Actions</td>
+<td><a href="https://www.youtube.com/watch?v=bIy-RN3FIsQ">Watch</a></td>
+</tr>
+<tr>
+<td><strong>Feature Updates</strong></td>
+<td>All Levels</td>
+<td>Windsurf Wave 3 Updates</td>
+<td>Tab to Jump, MCP, Custom App Icons, Turbo Mode</td>
+<td><a href="https://www.youtube.com/watch?v=OIV1vKm59Xg">Watch</a></td>
+</tr>
+<tr>
+<td><strong>Feature Updates</strong></td>
+<td>All Levels</td>
+<td>Windsurf Wave 2 Update</td>
+<td>Web Search, Autogenerated Memories</td>
+<td><a href="https://www.youtube.com/watch?v=YBP5Fs2N0Mg">Watch</a></td>
+</tr>
+<tr>
+<td><strong>Feature Updates</strong></td>
+<td>All Levels</td>
+<td>Windsurf Wave 1</td>
+<td>Cascade Memories and Automated Terminal Commands</td>
+<td><a href="https://www.youtube.com/watch?v=Fcl01e68vZw">Watch</a></td>
+</tr>
+<tr>
+<td><strong>Feature Updates</strong></td>
+<td>All Levels</td>
+<td>Windsurf Now Supports OpenAI's o3-mini!</td>
+<td>Integration with OpenAI's o3-mini model</td>
+<td><a href="https://www.youtube.com/watch?v=QuJsskQBtcI">Watch</a></td>
+</tr>
+</tbody>
+</table>
+<h3><strong>Community Resources</strong></h3>
+<ul>
+<li><a href="https://docs.codeium.com/windsurf">Official Windsurf Documentation</a></li>
+<li><a href="https://codeium.com/">Codeium Community Forums</a></li>
+<li><a href="https://github.com/codeium">GitHub Repository</a></li>
+</ul>
+<h3><strong>Official Documentation Links</strong></h3>
+<ul>
+<li>
+<p><a href="https://docs.codeium.com/windsurf/getting-started">Windsurf Getting Started Guide</a></p>
+</li>
+<li>
+<p><a href="https://docs.codeium.com/windsurf/cascade">Cascade Documentation</a></p>
+</li>
+<li>
+<p><a href="https://docs.codeium.com/windsurf/advanced">Advanced Windsurf Features</a></p>
+</li>
+<li>
+<p>더 쉬운 MCP 설치</p>
+<p><a href="https://www.notion.so/Cline-MCP-1c0eab14a71c80cda7a2d28f9bf5b8d4?pvs=21">Cline을 통한 MCP 설치 (편의기능)</a></p>
+</li>
+</ul>f:Tb39a,<h1>개요</h1>
+<ul>
+<li>본 문서는 Hyperithm 테크팀 IA (Intelligent Automation) 팀이, 사내 개발인력 생산성 강화를 위해 작성한 Windsurf 사용에 대한 종합적인 가이드입니다.</li>
+<li>작성 시점은 2025년 3월 26일이며 작성자는 Hyperithm 엔지니어 이한결 님입니다.</li>
+<li>회사와 팀에 대한 소개는 다음에서 볼 수 있습니다.
+<ul>
+<li>홈페이지 - <a href="https://www.hyperithm.com/">https://www.hyperithm.com</a></li>
+<li>채용 - <a href="https://hyperithm.career.greetinghr.com/">https://hyperithm.career.greetinghr.com</a></li>
+<li>CTO 양준하 <a href="https://www.linkedin.com/in/junha-y-5923061b6/">https://www.linkedin.com/in/junha-y-5923061b6</a>
+<ul>
+<li>커피챗 신청 환영입니다 - <a href="mailto:junha@hyperithm.com">junha@hyperithm.com</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h1>소개</h1>
+<h2>Windsurf 소개</h2>
+<ul>
+<li><strong>Cascade</strong> : 프로젝트를 깊이 이해하는 AI 기반 어시스턴트 (오른쪽에 위치한 채팅 인터페이스)</li>
+<li>WindsurfTab: 전체 코드 블록을 생성하는 지능형 코드 완성 도구 (editor 내에서 tab)</li>
+<li><strong>Command Mode</strong>: inline 또는 영역을 지정해 코드 편집 (Cmd + I)</li>
+<li><strong>Flows</strong>: 실시간 AI 협업 및 맥락 인식</li>
+<li><strong>Memories</strong>: 여러 대화에 걸쳐 컨텍스트 유지</li>
+<li><strong>Cascade Terminal</strong>: AI 지원으로 명령 실행</li>
+<li><strong>Preview</strong>: IDE 내 미리보기 기능으로 간소화된 웹 개발</li>
+</ul>
+<h2>설치 및 설정</h2>
+<ol>
+<li><strong>다운로드 및 설치</strong>:
+<ul>
+<li><a href="https://codeium.com/windsurf">codeium.com/windsurf</a> 를 방문하여 다운로드 및 설치합니다.</li>
+<li>Windsurf를 실행하고 설정 기본 설정을 선택합니다.</li>
+</ul>
+</li>
+<li><strong>초기 구성</strong>:
+<ul>
+<li>VS Code 또는 Cursor에서 설정 가져오기(선택사항)</li>
+<li>새로운 구성으로 시작</li>
+<li>무료 크레딧 액세스를 위한 무료 Windsurf 계정 가입</li>
+<li>명령줄 액세스를 위해 PATH 환경에 Windsurf 설치(선택사항)</li>
+</ul>
+</li>
+<li><strong>환경 설정</strong>:
+<ul>
+<li>선호하는 키바인딩 선택(VS Code 또는 Vim)</li>
+<li>에디터 테마 선택</li>
+</ul>
+</li>
+</ol>
+<h2>공식 documentation</h2>
+<ul>
+<li><a href="https://docs.codeium.com/windsurf/getting-started">https://docs.codeium.com/windsurf/getting-started</a></li>
+</ul>
+<h2>필수 단축키</h2>
+<table>
+<thead>
+<tr>
+<th>동작</th>
+<th>Windows/Linux</th>
+<th>Mac</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Cascade 열기/닫기</td>
+<td>Ctrl + L</td>
+<td>Cmd + L</td>
+</tr>
+<tr>
+<td>명령 팔레트 열기</td>
+<td>Ctrl + Shift + P</td>
+<td>Cmd + Shift + P</td>
+</tr>
+<tr>
+<td>Inline AI</td>
+<td>Ctrl + I</td>
+<td>Cmd + I</td>
+</tr>
+<tr>
+<td>브레드크럼에 포커스</td>
+<td>Ctrl + Shift + ;</td>
+<td>Ctrl + Shift + ;</td>
+</tr>
+</tbody>
+</table>
+<h1>핵심 인터페이스 (Cascade)</h1>
+<p>Windsurf 인터페이스는 다음과 같은 주요 구성 요소로 이루어져 있습니다:</p>
+<ul>
+<li><strong>Cascade 패널</strong>: 오른쪽에 위치하며, AI 어시스턴트와 주로 상호작용하는 곳입니다.</li>
+</ul>
+<p><img src="/windsurf_assets/image.png" alt="image.png"></p>
+<ul>
+<li><strong>메뉴 바</strong>: 오른쪽 상단에 위치하며, 업데이트 및 설정에 접근할 수 있습니다.</li>
+</ul>
+<p><img src="/windsurf_assets/image%201.png" alt="image.png"></p>
+<ul>
+<li>
+<p><strong>설정 버튼</strong> : 오른쪽 하단에 위치하며, 구성 옵션에 빠르게 접근할 수 있습니다.</p>
+<p><img src="/windsurf_assets/image%202.png" alt="image.png"></p>
+</li>
+</ul>
+<h2>Cascade (Mode)</h2>
+<p>Cascade는 Windsurf의 에이전트 기능의 핵심 축으로, 코드베이스에 대한 깊은 이해, 고급 도구 및 실시간 인식을 결합합니다.</p>
+<p>작동 모드 (cmd + .  로 모드 변환)</p>
+<ul>
+<li><strong>Write 모드</strong>: AutoGPT와 유사하게, 최소한의 개입으로 여러 파일을 생성하고, 스크립트 실행, 테스트 수행, 코드 디버깅이 가능합니다.</li>
+<li><strong>Chat 모드</strong>: 더 대화형으로, 프롬프트를 기반으로 코드 스니펫 생성 및 지침 제공에 중점을 둡니다.</li>
+<li><strong>Legacy 모드</strong>: 현재 프로젝트와 관련 없는 일반 질문에 대해 ChatGPT처럼 기능합니다.</li>
+</ul>
+<h2><strong>@ 멘션 컨텍스트</strong></h2>
+<ul>
+<li>@ 기호를 사용하여 특정 파일, 함수 또는 클래스를 참조합니다.</li>
+</ul>
+<p><img src="/windsurf_assets/image%203.png" alt="image.png"></p>
+<h3>웹에서 검색</h3>
+<ul>
+<li>검색어(query)를 던져주거나, 특정 link를 전달해 내용을 reference로 참조</li>
+</ul>
+<h3>Codes, Files, Directories</h3>
+<ul>
+<li>참조해야할 범위를 좁혀 전달할때 더 좋은 결과를 얻기도함.</li>
+<li>(주의) index되어 있어야 참조가 가능함 : <strong>Check Indexing Status:</strong> "Chat" 패널의 "Context" 창에서 녹색 점으로 indexing 상태를 확인할 수 있습니다.
+<ul>
+<li>
+<p>세부사항</p>
+<p>요약</p>
+<ul>
+<li>Windsurf는 코드베이스 전체를 인식하기 위해 로컬 indexing 엔진을 사용합니다.</li>
+<li><strong>Automatic Indexing:</strong> 기본적으로 활성화되어 있습니다. (VS Code/JetBrains 확장과 다름)</li>
+<li><strong>Embedding Generation:</strong> 코드를 이해하기 위해 embeddings을 생성합니다. 이를 통해 자연어 또는 코드 조각으로 검색할 수 있습니다.</li>
+<li><strong>Local Storage:</strong> 코드 조각은 embedding 생성을 위해 원격 서버로 보내지만, 코드나 embedding은 원격으로 저장되지 않고 기기에 저장됩니다.</li>
+<li>최초 indexing 시 CPU 자원을 소모하지만, 한 번만 발생하며 5-10분 정도 소요됩니다.</li>
+<li><strong>Resource Requirements:</strong> 5,000개 파일 작업 공간의 경우 약 300MB의 RAM이 필요합니다.</li>
+</ul>
+<p><strong>Indexed Files 확인:</strong></p>
+<ul>
+<li>직접적으로 indexing된 파일 목록을 볼 수는 없습니다.</li>
+<li><strong>Check Indexing Status:</strong> "Chat" 패널의 "Context" 창에서 녹색 점으로 indexing 상태를 확인할 수 있습니다.</li>
+<li><strong>Excluded Files:</strong> 기본적으로 <strong><code>.gitignore</code></strong>, <strong><code>node_modules</code></strong>, 숨김 경로 (<strong><code>.</code></strong>)에 지정된 파일/폴더 및 <strong><code>.codeiumignore</code></strong> 파일에 지정된 파일/폴더는 indexing되지 않습니다.</li>
+<li><strong>.codeiumignore:</strong> **<code>.gitignore</code>**와 동일한 문법을 사용하여 indexing에서 제외할 파일을 추가적으로 설정할 수 있습니다. repo root에 위치해야 합니다.</li>
+<li><strong>Workspace Size Limits:</strong> "Max Workspace Size (File Count)" 설정으로 indexing할 최대 파일 수를 제한할 수 있습니다. (RAM 10GB 사용자 기준 10,000개 이하 권장)</li>
+</ul>
+<p><strong>주의할 점:</strong></p>
+<ul>
+<li>Indexing된 파일 목록을 직접 볼 수 없다는 점. Excluded Files에 주의하여 필요한 파일이 indexing에서 제외되지 않았는지 확인해야 합니다.</li>
+<li><strong><code>.codeiumignore</code></strong> 파일을 활용하여 indexing 대상 파일을 세밀하게 조정할 수 있다는 점.</li>
+<li>Workspace 크기가 커질수록 더 많은 자원을 소모하므로 "Max Workspace Size (File Count)" 설정을 적절하게 조정해야 한다는 점.</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h3>Docs (내부/외부)</h3>
+<ul>
+<li>
+<p>bulit-in documentation: (@docs) 로 선택</p>
+<pre><code>@docs:windsurf-help-docs how does memory management work in windsurf? 
+</code></pre>
+</li>
+<li>
+<p>외부 링크에 있는 documentation</p>
+<ul>
+<li>가령 <a href="https://pytorch-lightning.readthedocs.io/en/1.5.0/">https://pytorch-lightning.readthedocs.io/en/1.5.0/</a> 에 있는 doc을 windsurf 내부에서 참조해서 쓰고 싶을때</li>
+<li>아래 형식으로 cascade chat에 입력</li>
+</ul>
+<pre><code class="hljs language-jsx">@<span class="hljs-attr">docs</span>:(doc-name) link
+@<span class="hljs-attr">docs</span>:pytorch-lightning-v1<span class="hljs-number">.5</span><span class="hljs-number">.0</span> <span class="hljs-attr">https</span>:<span class="hljs-comment">//pytorch-lightning.readthedocs.io/en/1.5.0/</span>
+
+</code></pre>
+</li>
+</ul>
+<h3>ETC</h3>
+<ul>
+<li>린터 통합: 자동으로 린팅 오류를 식별하고 수정합니다.</li>
+<li>모델 선택: 필요에 따라 다양한 AI 모델 중에서 선택할 수 있습니다.</li>
+<li>웹 검색: @ 다음에 URL을 사용하여 인터넷에서 컨텍스트를 가져옵니다.</li>
+<li>이미지 업로드: 이미지에서 코드를 생성합니다(예: 웹사이트 스크린샷에서 HTML/CSS 생성).</li>
+</ul>
+<h2>WindsurfTab</h2>
+<ul>
+<li>WindsurfTab은 코드 작성 워크플로우를 향상시키기 위한 기능입니다. autocomplete, supercomplete, tab to jump, tab to import 기능을 통합된 UX(tab)으로 제공합니다. 별도의 모델을 사용하여 코드 문맥을 파악하고 관련된 제안, 점프 및 임포트를 제공합니다.</li>
+<li><strong>문맥 활용 :</strong> WindsurfTab은 더 나은 자동 완성을 위해 다음과 같은 요소가 고려됩니다.
+<ul>
+<li><strong>최근에 본 파일 (Recently Viewed Files):</strong> 다른 파일에서 작업한 코드가 제안에 영향을 줍니다.</li>
+<li><strong>터미널 명령어 및 출력 (Terminal Commands &#x26; Outputs):</strong> 터미널에서 실행한 명령어와 그 결과가 의도를 파악하는 데 사용됩니다 (예: 임포트 실패 후 패키지 설치 제안).</li>
+<li><strong>Cascade 대화 (Cascade Conversations):</strong> Cascade에서의 이전 상호 작용이 문맥을 유지하고 관련 연속을 제공하는 데 사용됩니다 (해당되는 경우).</li>
+</ul>
+</li>
+</ul>
+<p><img src="/windsurf_assets/image%204.png" alt="image.png"></p>
+<h3>Autocomplete</h3>
+<ul>
+<li><strong>클립보드를 문맥으로 사용 (선택 사항):</strong>
+<ul>
+<li><strong>사용법:</strong> 이 기능은 <em>기본적으로 비활성화</em>되어 있습니다.
+<ul>
+<li><strong>Advanced Settings ></strong> . "Windsurf Tab" 또는 "Completion Context"와 관련된 옵션을 찾아 "Clipboard as Context"를 활성화하십시오.</li>
+</ul>
+</li>
+<li><strong>장점:</strong> 다른 소스에서 코드 스니펫을 복사하면 Windsurf Tab이 현재 파일에서 관련 완성을 제안하는 데 사용할 수 있습니다.</li>
+<li><strong>개인 정보 보호 고려 사항:</strong> 이 기능을 활성화할 때 민감한 정보에 주의하십시오.</li>
+</ul>
+</li>
+</ul>
+<h3>Supercomplete</h3>
+<p>Supercomplete는 Windsurf의 고급 AI 기반 기능으로, 단순한 자동 완성(Autocomplete)을 넘어 사용자의 의도를 예측합니다. 단순히 다음 줄의 코드를 제안하는 것이 아니라 의도를 파악합니다. 이는 Windsurf Tab 시스템의 일부로서, 단 하나의 키 입력으로 다양한 코드 변경을 가능하게 합니다.</p>
+<table>
+<thead>
+<tr>
+<th>기능 (Function)</th>
+<th>설명 (Description)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>오타 수정 (Typo Sanitation)</td>
+<td>철자 및 구문 오류 자동 수정</td>
+</tr>
+<tr>
+<td>변수 이름 변경 (Variable Renaming)</td>
+<td>문맥 기반 더 나은 변수 이름 제안</td>
+</tr>
+<tr>
+<td>스키마 업데이트 (Schema Updates)</td>
+<td>코드 요구 사항에 따른 데이터 스키마 자동 수정</td>
+</tr>
+<tr>
+<td>이벤트 핸들러 바인딩 (Event Handler Binding)</td>
+<td>적절한 위치에 자동 이벤트 핸들러 연결</td>
+</tr>
+<tr>
+<td>코드 리팩토링 (Code Refactoring)</td>
+<td>코드 품질 및 효율성을 개선하기 위한 제안 제공</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>Auto complete 과의 차이점</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Feature</th>
+<th>Autocomplete</th>
+<th>Supercomplete</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Scope</td>
+<td>Current Cursor position only</td>
+<td>Considers entire code context</td>
+</tr>
+<tr>
+<td>Intention</td>
+<td>Simple insertion of code</td>
+<td>Predicts intent, suggests code changes (inserts, deletes, edits)</td>
+</tr>
+<tr>
+<td>Independence from location</td>
+<td>Dependent on cursor position</td>
+<td>Context-aware, works independently of cursor position</td>
+</tr>
+</tbody>
+</table>
+<h3>Tab to Import</h3>
+<p>Tab to Import는 파일에 새로운 의존성(dependency)을 정의한 후, 힌트가 표시될 때**<code>tab</code>**키를 누르면 해당 의존성을 파일 상단에 자동으로 import하는 기능입니다. 커서는 현재 위치에 그대로 유지됩니다.</p>
+<ul>
+<li>파일에서 새로운 라이브러리나 모듈을 사용합니다</li>
+<li>Windsurf가 import 힌트를 표시합니다</li>
+<li>**<code>tab</code>**키를 누르면 자동으로 파일 상단에 import 구문이 추가됩니다</li>
+<li>작업 중인 위치에서 커서가 이동하지 않고 계속 작업할 수 있습니다</li>
+</ul>
+<h3>Tab to Jump</h3>
+<ul>
+<li><strong>사용법:</strong> 키워드 (예: 함수 이름, 변수 이름)를 입력하고 <strong>Tab</strong> 키를 누릅니다. Windsurf Tab이 점프 가능한 위치를 감지하면 점프 옵션이 있는 위젯을 표시합니다.</li>
+<li><strong>(v 1.5.6)</strong> 점프 거리가 두 배 이상 늘어나 코드베이스 내에서 더 멀리 이동할 수 있습니다. 점프 위젯의 UI가 새로워졌습니다.</li>
+<li>Tab to Jump 위젯을 <em>클릭</em>하여 원하는 점프 위치를 선택할 수 있습니다.</li>
+</ul>
+<h1>Command Mode (Inline AI): 대상 코드 편집</h1>
+<p>코드를 선택하고 <code>Cmd+I</code>(Mac) 또는 <code>Ctrl+I</code>(Windows/Linux)를 사용하여 접근:</p>
+<table>
+<thead>
+<tr>
+<th>예시 케이스</th>
+<th>설명</th>
+<th>예시</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Code Modification, AI-Powered Code Suggestions</td>
+<td>선택한 코드에 대한 특정 변경을 요청합니다.  AI 툴을 사용하여 코드 변경을 제안받고 적용할 수 있습니다.</td>
+<td>"이 함수의 시간 복잡도를 개선해줘."</td>
+</tr>
+<tr>
+<td>Docstring Generation, Documentation</td>
+<td>선택한 함수, 클래스 등에 대한 독스트링을 자동으로 생성합니다.  코드의 문서화를 간소화합니다.</td>
+<td>함수를 선택하고 Cmd+I를 누르면 자동으로 함수에 대한 설명을 포함하는 독스트링 생성</td>
+</tr>
+<tr>
+<td>Code Refactoring, Readability, Performance, Maintainability</td>
+<td>선택한 코드를 개선하기 위한 제안을 받고 리팩토링을 수행합니다. 코드 가독성, 성능, 유지보수성을 향상시킬 수 있습니다.</td>
+<td>반복되는 코드 블록을 선택하고 Cmd+I를 눌러 함수로 추출 제안을 받음</td>
+</tr>
+<tr>
+<td>Terminal Integration, Command Generation, Information Retrieval</td>
+<td>선택한 코드 또는 문제에 대한 터미널 명령어를 생성하거나, 관련 정보를 터미널에서 검색하는 것을 지원받습니다.</td>
+<td>특정 라이브러리 설치 명령어를 생성하거나, 에러 메시지에 대한 해결책을 검색</td>
+</tr>
+</tbody>
+</table>
+<h1>Flows: 맥락을 실시간으로 이해하는 AI</h1>
+<p><a href="/windsurf_assets/windsurf-continue.mp4">windsurf-continue.mp4</a></p>
+<ul>
+<li>변수명 바꾸고, cascade chat 에서 continue 라고 입력하면 코드베이스 전체에서 해당 변수명의 변경에 따른 적절한 수정을 진행해줌</li>
+</ul>
+<h1>컨텍스트 보존 및 개인화</h1>
+<ul>
+<li><strong>자동화된 메모리</strong>: 작업 패턴을 학습하고 향후 사용을 위해 정보 저장</li>
+<li><strong>명시적 메모리</strong>: 특정 컨텍스트를 유지하거나 환경 설정을 지정하는 사용자 정의 규칙</li>
+<li>문서 환경 설정 및 코딩 스타일을 위한 <code>.windsurfrules</code> 파일을 통해 관리
+<ul>
+<li>project 단위의 rule</li>
+</ul>
+</li>
+<li>모든 코드 베이스에 적용되는 global rule</li>
+</ul>
+<h2>메모리 (Memory)</h2>
+<h3><strong>자동 메모리 (Automated Memories)</strong></h3>
+<ul>
+<li><strong>목표</strong>: Cascade와 대화할 때 중요한 내용을 자동으로 기억해 줍니다.</li>
+<li><strong>만드는 방법</strong>:
+<ul>
+<li>Cascade와 대화하는 동안 자동으로 생성됩니다.</li>
+<li>"create a memory of..."와 같이 Cascade에게 직접 요청해서 만들 수도 있습니다.</li>
+</ul>
+</li>
+<li><strong>저장 위치</strong>: 각 워크스페이스(workspace)에 연결되어 저장됩니다.</li>
+<li><strong>불러오기</strong>: 현재 상황에 맞는 정보가 자동으로 나타납니다.</li>
+<li><strong>비용</strong>: 크레딧(credits)을 사용하지 않습니다.</li>
+<li><strong>이럴 때 좋아요</strong>:
+<ul>
+<li>프로젝트(project)를 진행하면서 나오는 중요한 내용</li>
+<li>사용자(user)의 선호도나 대화 중에 결정된 사항</li>
+<li>중요한 코드 스니펫(code snippets)이나 아키텍처 관련 결정</li>
+<li>여러 세션(session)에서 반복적으로 필요할 수 있는 정보</li>
+</ul>
+</li>
+</ul>
+<h3><strong>명시적 메모리 (Explicit Memory)</strong></h3>
+<ul>
+<li><strong>종류</strong>:
+<ol>
+<li><strong>글로벌 규칙 (Global Rules)</strong> (<code>global_rules.md</code>): 모든 워크스페이스에 공통으로 적용됩니다.</li>
+<li><strong>로컬 규칙 (Local Rules)</strong> (<code>.windsurfrules</code>): 특정 워크스페이스에만 적용됩니다.</li>
+</ol>
+</li>
+<li><strong>제한 사항</strong>: 파일 하나당 6,000자 (총 12,000자)까지 쓸 수 있습니다.</li>
+<li><strong>관리 방법</strong>: Windsurf Settings > Edit Rules에서 수정할 수 있습니다.</li>
+<li><strong>이럴 때 좋아요</strong>:
+<ul>
+<li>프로젝트 전반에 걸쳐 지켜야 할 규칙과 표준</li>
+<li>전체 프로젝트에 적용되는 코딩 컨벤션(coding conventions)</li>
+<li>팀(team)에서 정한 규칙이나 요구 사항</li>
+<li>Document 설정이나 코딩 스타일 관련 선호도</li>
+</ul>
+</li>
+</ul>
+<h2>규칙 (Rules)</h2>
+<h3><strong>이런 경우에 사용</strong></h3>
+<ul>
+<li>프로젝트에 적용할 코딩 표준이 정해져 있을 때</li>
+<li>코드베이스(codebase)를 다룰 때 항상 일관된 결과를 얻고 싶을 때</li>
+<li>특정 포맷팅(formatting)이나 문서화 방식을 강제하고 싶을 때</li>
+<li>모든 대화에 적용되는 개인 설정을 유지하고 싶을 때</li>
+</ul>
+<h3><strong>Rules 작성 관련 팁</strong></h3>
+<ul>
+<li><a href="https://codeium.com/windsurf/directory">https://codeium.com/windsurf/directory</a> 에서 구체적인 case by case 예시를 볼 수 있습니다.
+<ul>
+<li>규칙은 최대한 간단하고 명확하게 작성</li>
+<li>글머리 기호나 마크다운(markdown)을 사용하여 가독성</li>
+<li>나중에 필요할 수 있는 중요한 내용은 메모리로 저장</li>
+<li>모든 프로젝트에 적용되는 표준은 글로벌 규칙으로 설정</li>
+<li>프로젝트별 요구 사항은 로컬 규칙으로 설정</li>
+</ul>
+</li>
+</ul>
+<h2><strong>설정 및 관리</strong></h2>
+<p><img src="/windsurf_assets/image%205.png" alt="image.png"></p>
+<ul>
+<li><strong>자동 메모리 (Automated Memories)</strong>: Settings > Manage Cascade-Generated Memories 또는 Cascade 창의 점 3개 메뉴에서 관리할 수 있습니다.</li>
+<li><strong>규칙 (Rules)</strong>: Windsurf Settings > Edit Rules에서 수정할 수 있습니다.</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>기능</th>
+<th>자동 메모리</th>
+<th>글로벌 규칙 (<code>global_rules.md</code>)</th>
+<th>로컬 규칙 (<code>.windsurfrules</code>)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>생성 방법</strong></td>
+<td>Cascade 명령으로 자동 생성 또는 수동 생성</td>
+<td>텍스트 편집기로 직접 작성</td>
+<td>텍스트 편집기로 직접 작성</td>
+</tr>
+<tr>
+<td><strong>적용 범위</strong></td>
+<td>해당 워크스페이스에만 적용</td>
+<td>모든 워크스페이스에 적용</td>
+<td>특정 워크스페이스에만 적용</td>
+</tr>
+<tr>
+<td><strong>유지 여부</strong></td>
+<td>세션이 종료되어도 유지</td>
+<td>세션이 종료되어도 유지</td>
+<td>세션이 종료되어도 유지</td>
+</tr>
+<tr>
+<td><strong>비용</strong></td>
+<td>무료 (크레딧 소모 없음)</td>
+<td>무료 (크레딧 소모 없음)</td>
+<td>무료 (크레딧 소모 없음)</td>
+</tr>
+<tr>
+<td><strong>이럴 때 좋아요</strong></td>
+<td>맥락 유지, 중요한 세부 사항, 의사 결정 기록</td>
+<td>프로젝트 표준, 코딩 규칙</td>
+<td>프로젝트별 요구 사항, 코딩 스타일</td>
+</tr>
+</tbody>
+</table>
+<h2>(Advanced) 디렉토리별 메모리, Rule 관리 전략</h2>
+<h3>Prompt Context란 ?</h3>
+<p>Prompt Context 접근 방식은 코드 저장소 내에서 작업하는 AI 어시스턴트에게 디렉토리별 가이드를 제공해 어떤 컨텍스트와 룰을 우선시 할 것인지에 대한 관리를 좀 더 쉽게 할 수 있는 방법론입니다.</p>
+<h3>설정 방법</h3>
+<ul>
+<li><a href="https://gist.github.com/miroblog/dc5e946e0437a4b054b78d8f166af537">Prompt Context Rules</a></li>
+</ul>
+<ol>
+<li>위 rule을 .windsurfrules에 명시합니다.</li>
+<li>특수 지시사항이 필요한 하위 디렉토리에 디렉토리별 컨텍스트(.context.md), 규칙(.AI.md) 파일을추가합니다</li>
+</ol>
+<p>특정 디렉토리 내에서의 작업 X(코드 수정 및 생성 등)에 필요한 규칙(formatting rule 등) 과 컨텍스트(예시 snippet 등) 을 개발자가 효과적으로 통제할 수 있습니다.</p>
+<h2>(Advanced) Memory Bank를 통한 관리 전략</h2>
+<h3><strong>Memory Bank란 무엇인가?</strong></h3>
+<p>Memory Bank는 Windsurf AI가 여러 세션에 걸쳐 프로젝트 컨텍스트를 유지할 수 있게 해주는 구조화된 문서화 시스템입니다. AI의 "메모리" 역할을 하는 마크다운 파일들을 생성하고 업데이트하여 더 일관되고 효율적인 지원을 가능하게 합니다.</p>
+<ul>
+<li>세션 간에 프로젝트 컨텍스트 유지</li>
+<li>프로젝트 세부 정보 자동 문서화</li>
+<li>AI가 프로젝트 패턴과 제약 조건을 이해하도록 보장</li>
+<li>반복적인 설명 감소</li>
+<li>코드 일관성 향상</li>
+</ul>
+<h3><strong>설정 방법</strong></h3>
+<p><strong>1단계: Memory Bank 규칙 생성</strong></p>
+<ul>
+<li><a href="https://gist.github.com/miroblog/7a60b45b572dc4922aac21de57a0915f">Memory Bank Rules</a></li>
+</ul>
+<ol>
+<li>Memory Bank 규칙을 복사</li>
+<li>windsurf 설정 → Rules로 이동</li>
+<li>.windsurfrules 섹션에 규칙을 붙여넣기</li>
+<li>설정 저장</li>
+</ol>
+<p><strong>2단계: Memory Bank 초기화</strong></p>
+<pre><code>1. windsurf AI와 새 채팅 시작
+2. 다음과 같이 입력: `initialize memory bank`
+3. windsurf가 memory bank 폴더 구조를 생성하도록 함
+</code></pre>
+<h3><strong>Memory Bank 구조</strong></h3>
+<pre><code>1. **projectbrief.md** - 기초 문서
+    - 핵심 요구사항 및 목표
+    - 프로젝트 범위
+2. **productContext.md** - 제품 세부 정보
+    - 이 프로젝트가 존재하는 이유
+    - 해결하는 문제점
+    - 사용자 경험 목표
+3. **systemPatterns.md** - 기술 아키텍처
+    - 시스템 아키텍처
+    - 주요 디자인 패턴
+    - 컴포넌트 관계
+4. **techContext.md** - 기술적 세부 사항
+    - 사용된 기술
+    - 개발 설정
+    - 의존성
+5. **activeContext.md** - 현재 작업
+    - 최근 변경 사항
+    - 다음 단계
+    - 활성 의사 결정
+6. **progress.md** - 프로젝트 상태
+    - 잘 작동하는 것
+    - 구축해야 할 것
+    - 알려진 문제점
+</code></pre>
+<h3><strong>Memory Bank 사용 방법</strong></h3>
+<p><strong>Plan Mode</strong></p>
+<pre><code>구현 전에 windsurf가 기능 계획을 도와주길 원할 때:
+
+1. 새 채팅 시작
+2. 다음과 같이 입력: `use plan mode`
+3. 계획하고 싶은 내용 설명
+4. windsurf가 memory bank 파일을 읽고 계획을 도와줌
+
+예시:
+
+use plan mode
+Let's plan how to implement user authentication in our app
+
+
+</code></pre>
+<p><strong>Implementation Mode</strong></p>
+<pre><code>기능을 구현하고 싶을 때:
+
+1. 구현하고 싶은 내용 설명
+2. windsurf가 memory bank를 읽고 프로젝트 패턴에 따라 구현
+</code></pre>
+<p><strong>Memory Bank 업데이트</strong></p>
+<pre><code>Memory Bank는 windsurf와 작업할 때 자동으로 업데이트되지만, 수동으로 업데이트를 트리거할 수 있습니다:
+
+1. 다음과 같이 입력: `update memory bank`
+2. windsurf가 모든 파일을 검토하고 문서를 업데이트
+</code></pre>
+<p><strong>사용팁</strong></p>
+<pre><code>- 작업 설명 시 구체적으로 설명
+- 정확성을 보장하기 위해 memory bank 파일을 가끔 검토
+- 새 프로젝트의 경우, 초기화할 때 초기 컨텍스트 제공
+- 복잡한 기능은 구현 전에 plan mode 사용
+- 중요한 프로젝트 변경 후 memory bank 업데이트
+- windsurf가 memory bank를 무시하는 것 같다면, "use plan mode"를 명시적으로 지정
+- 구현이 프로젝트 패턴과 일치하지 않는 경우, systemPatterns.md 파일 확인
+- 대규모 프로젝트의 경우, memory-bank 폴더에 추가 컨텍스트 파일 생성 고려
+</code></pre>
+<h1>MCP 서버 관련 기능</h1>
+<p>Model Context Protocol(MCP)은 개발 환경에서 직접 외부 서비스 및 API에 연결할 수 있도록 Windsurf의 기능을 확장하는 기능입니다.</p>
+<p>MCP를 통해 Windsurf는 다음을 수행할 수 있습니다:</p>
+<ul>
+<li>GitHub, YouTube 및 다양한 데이터 소스와 같은 플랫폼에 연결</li>
+<li>AI가 웹 서비스와 상호 작용하고 실시간 정보를 가져올 수 있도록 지원</li>
+<li>로컬 코드베이스를 넘어 기능 확장</li>
+</ul>
+<h2>MCP 서버 셋팅</h2>
+<ul>
+<li>cascade 오른쪽 하단 망치</li>
+</ul>
+<p><img src="/windsurf_assets/image%206.png" alt="image.png"></p>
+<ul>
+<li>
+<p>오른쪽 상단 메뉴 → Windsurf Settings (cmd +, )</p>
+<p><img src="/windsurf_assets/image%207.png" alt="image.png"></p>
+</li>
+<li>
+<p>Add server + , 또는 Add custom server + 를 통해 설정</p>
+</li>
+</ul>
+<p><img src="/windsurf_assets/image%208.png" alt="image.png"></p>
+<p><img src="/windsurf_assets/image%209.png" alt="image.png"></p>
+<p>아래가 포함된 <code>mcp_config.json</code> 파일 수정을 통해 설정</p>
+<ul>
+<li>(tip) npx가 안될땐 docker로 시도</li>
+</ul>
+<pre><code># example sequential-thinking
+{
+  "mcpServers": {
+    "sequential-thinking": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-sequential-thinking"
+      ]
+    }
+}
+</code></pre>
+<p>현재 windsurf 제한 사항</p>
+<ul>
+<li>도구만 지원하며 이미지를 포함하는 출력은 지원하지 않음</li>
+<li>stdio 전송 유형을 사용하는 서버 필요</li>
+</ul>
+<h2>MCP Server Curated된 웹사이트</h2>
+<ul>
+<li><a href="https://glama.ai/mcp/servers">https://glama.ai/mcp/servers</a></li>
+<li><a href="https://opentools.com/">https://opentools.com/</a></li>
+<li><a href="https://smithery.ai/">https://smithery.ai/</a></li>
+<li><a href="https://mcp.so/">https://mcp.so/</a></li>
+<li><a href="https://mcp.composio.dev/">https://mcp.composio.dev/</a></li>
+</ul>
+<p>원하는 3rd party tool integration을 지원하는 mcp 서버가 market place에 있는지 확인</p>
+<p>없다면 custom mcp tool을 python이나 typescript로 제작</p>
+<ul>
+<li><a href="https://github.com/modelcontextprotocol/typescript-sdk">https://github.com/modelcontextprotocol/typescript-sdk</a></li>
+<li><a href="https://github.com/modelcontextprotocol/python-sdk">https://github.com/modelcontextprotocol/python-sdk</a></li>
+</ul>
+<h2>예시</h2>
+<h3>예시1 - Sequential Thinking</h3>
+<ul>
+<li>복잡한 태스크를 순차적으로 생각해 풀어낼때 유용</li>
+</ul>
+<pre><code>{
+  "mcpServers": {
+    "sequential-thinking": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-sequential-thinking"
+      ]
+    }
+}
+</code></pre>
+<h3>예시2 - Brave Search</h3>
+<ul>
+<li>windsurf built-in websearch로 검색이 잘 되지 않을때 시도</li>
+</ul>
+<pre><code>{
+  "mcpServers": {
+    "brave-search": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-brave-search"
+      ],
+      "env": {
+        "BRAVE_API_KEY": "API_KEY" 
+      }
+    }
+}
+</code></pre>
+<h3>예시3 - Slack Integration (docker)</h3>
+<ul>
+<li><a href="https://github.com/lars-hagen/slack-user-mcp">https://github.com/lars-hagen/slack-user-mcp</a></li>
+</ul>
+<pre><code>{
+  "mcpServers": {
+    "slack": {
+      "command": "docker",
+      "args": [
+        "run",
+        "-i",
+        "--rm",
+        "-e",
+        "SLACK_TOKEN",
+        "-e",
+        "SLACK_TEAM_ID",
+        "mcp/slack-user"
+      ],
+      "env": {
+        "SLACK_TOKEN": "xoxp-your-user-token",
+        "SLACK_TEAM_ID": "T01234567"
+      }
+    }
+  }
+}
+</code></pre>
+<h3>예시4 - Youtube Integration</h3>
+<ul>
+<li>유튜브 비디오/채널 검색, 자막 다운로드 등</li>
+</ul>
+<pre><code>{
+  "mcpServers": {
+    "yt-dlp": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@kevinwatt/yt-dlp-mcp"
+      ]
+    }
+}
+</code></pre>
+<blockquote>
+<p>ex) go to official windsurf youtube channel and list up all recent videos and download the captions and save it in ./captions directory</p>
+</blockquote>
+<h3>예시5- Browser Tools</h3>
+<ul>
+<li>UI 개발, 디버깅에 유용</li>
+<li>chrome console log, xhr network errors/logs</li>
+<li>브라우저 스크린샷 &#x26; 어떤 ui가 클릭되었는지 cascade내에서 @ 참조 가능</li>
+</ul>
+<pre><code>https://browsertools.agentdesk.ai/installation
+1. chrome extension 설치 -> 2. mcp 설정
+</code></pre>
+<h1>AI 개발 방법론 (case by case 보충 필요)</h1>
+<h2>Meta Prompting</h2>
+<p>메타 프롬프팅은 직접적인 지시 (일일이 모든 단계를 직접 나열하는 대신) AI에게 포괄적인 계획 수립을 요청하는 방식입니다. 이를 통해 AI가 복잡한 작업을 체계화하고 가이드하는 방식입니다.  예를 들어, "Tech stack" 선택이나 "Authentication" 처리 같은 작업을 직접 적는 대신, "Slack 봇을 만들려고 하는데, 봇 설정에 필요한 단계별 계획을 세울 때 Best Practice와 잠재적인 문제점을 고려해서 가이드해 줄 수 있어?" 와 같이 AI에게 물어볼 수 있습니다.</p>
+<h2>Plan → Implement → Feedback → … → Update Memory</h2>
+<ol>
+<li>먼저 계획(Plan) 단계에서는 무엇을 만들지 명확히 정의하고, 현재 코드 구조를 분석한 후, AI가 단계별 접근 방식을 제안하며 테스트 케이스를 먼저 작성하도록 지시 .</li>
+<li>구현(Implement) 단계에서는 AI가 계획에 따라 코드를 생성하고, 기능 검증을 위한 테스트를 작성하며, 여러 파일을 한 번에 수정하고 필요한 명령어를 실행</li>
+<li>피드백(Feedback) 단계에서는 테스트를 실행하여 요구사항 충족 여부를 확인하고, 오류와 문제점을 찾아내며, 코드 성능을 확인하고 코드 품질을 검토</li>
+<li>개선 구현(Implement) 단계에서는 발견된 오류를 수정하고, 코드를 정리하고 개선하며, 성능을 최적화하고 코드에 설명을 추가</li>
+<li>마지막으로 메모리 업데이트(Update Memory) 단계에서는 중요한 결정사항을 별도의 메모리(.md)에 기록하고, 반복되는 패턴을 식별하며, 프로젝트 지식을 축적하고 개발자의 코딩 스타일을 이해하도록 유도</li>
+</ol>
+<h1>Common Workflow</h1>
+<h2>프로젝트 생성 및 설정</h2>
+<p>예시 워크플로우:</p>
+<ol>
+<li>Cascade에 생성하려는 프로젝트 설명</li>
+<li>Windsurf가 프로젝트 구조와 필요한 파일 생성</li>
+<li>종속성 설치를 위한 터미널 명령 실행</li>
+<li>개발 준비 완료</li>
+</ol>
+<h2>피쳐 개발</h2>
+<p>Windsurf를 통한 효율적인 코딩 워크플로우:</p>
+<ol>
+<li>필요한 기능에 대해 명확한 지시 제공</li>
+<li>일관성을 유지하기 위해 기존 코드 패턴 참조</li>
+<li>Cascade에 적절한 컨텍스트를 제공하기 위해 @ 멘션 사용 (정확한 rule과 context 제공)</li>
+</ol>
+<h2>디버깅 및 오류 해결</h2>
+<ul>
+<li>
+<p>cascade로 보내기</p>
+<ul>
+<li>problems 하단 탭 확인 → send all to cascade</li>
+</ul>
+<p><img src="/windsurf_assets/image%2010.png" alt="image.png"></p>
+<ul>
+<li>editor 내에서 popup box 확인 → explain and fix</li>
+</ul>
+<p><img src="/windsurf_assets/image%2011.png" alt="image.png"></p>
+<ul>
+<li>terminal 에서 drag → cmd + L</li>
+</ul>
+<p><img src="/windsurf_assets/image%2012.png" alt="image.png"></p>
+</li>
+</ul>
+<p>간소화된 디버깅 프로세스:</p>
+<ol>
+<li>개발 중 오류 발생</li>
+<li>Cascade와 오류 메시지 및 관련 파일 공유</li>
+<li>분석 및 잠재적 해결책 확인</li>
+<li>제안된 수정 사항 적용 또는 디버깅 단계 수행</li>
+</ol>
+<h2><strong>리팩토링 및 코드 품질</strong></h2>
+<p>Windsurf를 사용하여 고품질 코드베이스를 유지할 수 있습니다.</p>
+<p><strong>기능:</strong></p>
+<ul>
+<li>특정 코드 섹션을 리팩토링하기 위해 Inline AI 사용</li>
+<li>포괄적인 문서 및 독스트링 생성</li>
+<li>프로젝트 전체에 일관된 코딩 스타일 적용</li>
+<li>기존 코드의 성능 최적화</li>
+</ul>
+<p><strong>권장 워크플로우:</strong></p>
+<ol>
+<li>리팩토링/ docstring 생성이 필요한 코드 선택</li>
+<li>특정 변경을 요청하기 위해 Command Mode(Cmd/Ctrl + I) 사용</li>
+<li>제안된 개선 사항 검토 및 수락</li>
+</ol>
+<h2>UI 개발</h2>
+<ul>
+<li><a href="https://docs.codeium.com/windsurf/previews">https://docs.codeium.com/windsurf/previews</a></li>
+</ul>
+<p><a href="/windsurf_assets/browser-preview-demo.mp4">browser-preview-demo.mp4</a></p>
+<p>Preview 기능을 통한 간소화된 웹 개발</p>
+<ul>
+<li>실시간으로 변경 사항을 확인하기 위해 IDE 내 미리보기 사용</li>
+<li>이미지나 설명에서 HTML/CSS/JS 생성</li>
+<li>UI 요소를 클릭하여 편집을 위해 cascade로 보내 레퍼런스로 참조해 디버깅</li>
+</ul>
+<h2>터미널 작업에서 AI 활용</h2>
+<p>향상된 터미널 경험</p>
+<ul>
+<li>터미널 명령에 대한 AI 지원 받기</li>
+<li>자동화된 명령 실행을 위한 Turbo Mode 사용</li>
+<li>추가 지원을 위한 명령 출력 분석</li>
+<li>최소한의 개입으로 복잡한 명령 시퀀스 실행</li>
+</ul>
+<p>예시 워크플로우</p>
+<ol>
+<li>적절한 터미널 명령에 대해 Cascade에 문의</li>
+<li>제안된 명령 검토</li>
+<li>명령 실행(수동 또는 Turbo Mode로 자동)</li>
+<li>terminal log 기반으로 도움 받기</li>
+</ol>
+<h1>상세 설정</h1>
+<h2>Cascade 설정</h2>
+<h3>Auto-Fix Lints</h3>
+<ul>
+<li><strong>설정</strong>: On/Off</li>
+<li><strong>기능</strong>: 활성화되면 Cascade가 생성된 코드의 린팅 오류를 자동으로 수정합니다. 비활성화되면 자동 수정 없이 코드가 생성됩니다.</li>
+</ul>
+<h3>모델 선택</h3>
+<p>작업 복잡성 및 예산에 따라 다양한 AI 모델 중에서 선택:</p>
+<ul>
+<li><strong>Gemini Flash</strong>: 간단한 작업에 적합, 낮은 비용</li>
+<li><strong>GPT-4o / Claude 3.5 / Claude 3.7</strong>: 유사한 비용, 높은 품질</li>
+<li><strong>Claude 3.7 Thinking</strong>: 최고 품질, 최고 비용</li>
+</ul>
+<p>모델 선택 고려 사항:</p>
+<ul>
+<li>작업 복잡성 요구 사항</li>
+<li>속도 vs 품질 트레이드오프</li>
+<li>크레딧 소비율</li>
+</ul>
+<h2>터미널 설정</h2>
+<h3>터미널 자동 실행(Turbo Mode)</h3>
+<ul>
+<li><strong>설정</strong>: On/Off</li>
+<li><strong>기능</strong>: 활성화되면 Cascade가 허용/차단 목록 규칙에 따라 수동 승인 없이 터미널 명령을 실행할 수 있습니다. 비활성화되면 모든 명령에 승인이 필요합니다.</li>
+</ul>
+<h3>명령 허용/차단 목록</h3>
+<p>자동으로 실행할 수 있는 명령 구성:</p>
+<ul>
+<li><strong>허용 목록</strong>: 항상 실행할 수 있는 명령 지정</li>
+<li><strong>차단 목록</strong>: 자동으로 실행하면 안 되는 명령 나열</li>
+<li>git 명령 허용: <code>git*</code></li>
+<li>파일 삭제 차단: <code>rm -rf*</code></li>
+</ul>
+<h2>Auto Complete 설정</h2>
+<h3>자동완성</h3>
+<ul>
+<li><strong>설정</strong>: On/Off</li>
+<li><strong>기능</strong>: 기본 코드 완성 기능을 켜거나 끕니다.</li>
+</ul>
+<h3>자동완성 속도</h3>
+<ul>
+<li><strong>설정</strong>: Fast/Normal</li>
+<li><strong>기능</strong>: 더 빠른 제안(Fast) 또는 더 신중한 타이밍(Normal) 중에서 선택합니다.</li>
+</ul>
+<h2>Supercomplete</h2>
+<ul>
+<li><strong>설정</strong>: On/Off</li>
+<li><strong>기능</strong>: 더 포괄적인 제안을 제공하는 향상된 컨텍스트 인식 코드 완성 기능을 켜거나 끕니다.</li>
+</ul>
+<h2>네비게이션 설정</h2>
+<h3>Tab to Jump</h3>
+<ul>
+<li><strong>설정</strong>: On/Off</li>
+<li><strong>기능</strong>: 활성화되면 Tab을 사용하여 import 문, 종속성 및 관련 코드 섹션으로 이동할 수 있습니다.</li>
+</ul>
+<h2>메모리 및 규칙 구성</h2>
+<h3>메모리 생성 및 관리</h3>
+<p>다음을 통해 접근:</p>
+<ul>
+<li>"create memory…" 로 Cascade에 메모리 생성 요청</li>
+<li>오른쪽 상단 "Manage Memory" 옵션을 통해 메모리 관리</li>
+</ul>
+<h3>규칙 유형</h3>
+<ul>
+<li><strong>전역 규칙</strong>: 모든 작업 공간에 적용</li>
+<li><strong>로컬 규칙</strong>(windsurfrules): 특정 프로젝트에 적용
+<ul>
+<li>프로젝트의 <code>.windsurfrules</code> 파일에 저장</li>
+<li>12,000자로 제한(전역 규칙과 결합)</li>
+<li>제한에 도달하면 전역 규칙이 우선</li>
+</ul>
+</li>
+</ul>
+<h3>규칙 모범 사례</h3>
+<ul>
+<li>글머리 기호 스타일로 형식 지정</li>
+<li>XML 태그로 관련 규칙 그룹화</li>
+<li>가장 중요한 규칙 우선시</li>
+<li>코딩 표준 및 패턴에 대해 구체적으로 명시</li>
+</ul>
+<h2>프리뷰 설정</h2>
+<ul>
+<li><strong>설정</strong>: On/Off</li>
+<li><strong>기능</strong>: 활성화되면 대화형 기능이 포함된 웹 애플리케이션의 IDE 내 미리보기를 제공합니다.</li>
+</ul>
+<p>다음을 통해 전환:</p>
+<ul>
+<li>설정 패널</li>
+<li>도구를 호출하거나 명시적으로 비활성화하는 프롬프트</li>
+</ul>
+<p>프리뷰 기능:</p>
+<ul>
+<li>UI 요소를 Cascade로 전송</li>
+<li>IDE 내 또는 별도의 브라우저에서 보기</li>
+<li>대상 편집을 위한 요소 선택</li>
+</ul>
+<h2>고급 구성 옵션</h2>
+<h3>Remote SSH 지원</h3>
+<ul>
+<li>원격 개발을 위한 내장 지원</li>
+<li>참고: Microsoft의 "Remote - SSH" 확장 프로그램을 설치하지 마세요(Windsurf와 충돌)</li>
+<li>로컬 dev 컨테이너 지원(원격 컨테이너는 지원하지 않음)</li>
+</ul>
+<h3>Gitignore 통합</h3>
+<ul>
+<li>인덱싱 및 검색을 위해 .gitignore 파일 준수</li>
+<li>특정 사용 사례를 위한 gitignore 파일 액세스 옵션</li>
+</ul>
+<h3>로컬 인덱싱 구성</h3>
+<ul>
+<li>Windsurf가 코드베이스를 인덱싱하는 방법 구성</li>
+<li>임베딩 생성 및 업데이트 빈도 설정</li>
+<li>코드베이스 크기 최적화 옵션</li>
+</ul>
+<h1>추가 리소스</h1>
+<h3><strong>Videos by Category and Skill Level</strong></h3>
+<table>
+<thead>
+<tr>
+<th>Category</th>
+<th>Skill Level</th>
+<th>Title</th>
+<th>Description</th>
+<th>Link</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Getting Started</strong></td>
+<td>Beginner</td>
+<td>The Windsurf Editor (World's First Agentic IDE)</td>
+<td>Overview of Windsurf as an agentic IDE</td>
+<td><a href="https://www.youtube.com/watch?v=3xk2qG2QPdU">Watch</a></td>
+</tr>
+<tr>
+<td><strong>Getting Started</strong></td>
+<td>Beginner</td>
+<td>The Making of Windsurf: Why We Built It</td>
+<td>Philosophy behind Windsurf's development</td>
+<td><a href="https://www.youtube.com/watch?v=FYtOlvblOX4">Watch</a></td>
+</tr>
+<tr>
+<td><strong>Getting Started</strong></td>
+<td>Beginner</td>
+<td>A Beginner's Guide to using MCP in Windsurf!</td>
+<td>Introduction to Model Context Protocol</td>
+<td><a href="https://www.youtube.com/watch?v=Y_kaQmhGmZk">Watch</a></td>
+</tr>
+<tr>
+<td><strong>Core Features</strong></td>
+<td>Beginner-Intermediate</td>
+<td>Turbo Mode in Windsurf</td>
+<td>Automated terminal command execution</td>
+<td><a href="https://www.youtube.com/watch?v=8hvbnMLpes4">Watch</a></td>
+</tr>
+<tr>
+<td><strong>Core Features</strong></td>
+<td>Beginner-Intermediate</td>
+<td>AI Flows: The Reason Why Cascade Feels Like Magic</td>
+<td>Deep dive into AI Flows collaboration</td>
+<td><a href="https://www.youtube.com/watch?v=ei1ftNJx6gI">Watch</a></td>
+</tr>
+<tr>
+<td><strong>Core Features</strong></td>
+<td>Beginner-Intermediate</td>
+<td>Cascade Memories: Personalize Windsurf with Custom Rules</td>
+<td>Creating and managing custom rules</td>
+<td><a href="https://www.youtube.com/watch?v=pOvI02of5oo">Watch</a></td>
+</tr>
+<tr>
+<td><strong>Core Features</strong></td>
+<td>Beginner-Intermediate</td>
+<td>Never Google A Terminal Command Again</td>
+<td>Generate and run terminal commands</td>
+<td><a href="https://www.youtube.com/watch?v=tHPKPj2tyn8">Watch</a></td>
+</tr>
+<tr>
+<td><strong>Core Features</strong></td>
+<td>Beginner-Intermediate</td>
+<td>Web Search Best Practices</td>
+<td>Optimize search functionality and credits</td>
+<td><a href="https://www.youtube.com/watch?v=moIySJ4d0UY">Watch</a></td>
+</tr>
+<tr>
+<td><strong>Core Features</strong></td>
+<td>Beginner-Intermediate</td>
+<td>Making of Windsurf's Cascade Bar</td>
+<td>Design and functionality of Cascade</td>
+<td><a href="https://www.youtube.com/watch?v=De5BZSaphZs">Watch</a></td>
+</tr>
+<tr>
+<td><strong>Advanced Techniques</strong></td>
+<td>Intermediate-Advanced</td>
+<td>Convert Figma Designs Into Code</td>
+<td>Transform Figma designs into code</td>
+<td><a href="https://www.youtube.com/watch?v=u1GYJPNnG9o">Watch</a></td>
+</tr>
+<tr>
+<td><strong>Advanced Techniques</strong></td>
+<td>Intermediate-Advanced</td>
+<td>Refine Code with Precision - Command Mode</td>
+<td>Using Command Mode for targeted edits</td>
+<td><a href="https://www.youtube.com/watch?v=PnktjL43fTc">Watch</a></td>
+</tr>
+<tr>
+<td><strong>Advanced Techniques</strong></td>
+<td>Intermediate-Advanced</td>
+<td>From Sketch to Website</td>
+<td>Implementing features from visual references</td>
+<td><a href="https://www.youtube.com/watch?v=G2bRYbW9VYk">Watch</a></td>
+</tr>
+<tr>
+<td><strong>Advanced Techniques</strong></td>
+<td>Intermediate-Advanced</td>
+<td>Turn Blog Post Tutorials into Full-Stack Applications</td>
+<td>Converting tutorials into applications</td>
+<td><a href="https://www.youtube.com/watch?v=X7Ipaou43o0">Watch</a></td>
+</tr>
+<tr>
+<td><strong>Advanced Techniques</strong></td>
+<td>Intermediate-Advanced</td>
+<td>Save Time with Cascade Autogenerated Memories</td>
+<td>Optimize workflow with autogenerated memories</td>
+<td><a href="https://www.youtube.com/watch?v=DKUe0ST_qi4">Watch</a></td>
+</tr>
+<tr>
+<td><strong>Advanced Techniques</strong></td>
+<td>Intermediate-Advanced</td>
+<td>Spend Less Time Approving with Automated Command</td>
+<td>Streamlining approval processes</td>
+<td><a href="https://www.youtube.com/watch?v=bdKZ_vGHh1o">Watch</a></td>
+</tr>
+<tr>
+<td><strong>Feature Updates</strong></td>
+<td>All Levels</td>
+<td>Windsurf Wave 4 Updates</td>
+<td>Preview, Tab to Import, Suggested Actions</td>
+<td><a href="https://www.youtube.com/watch?v=bIy-RN3FIsQ">Watch</a></td>
+</tr>
+<tr>
+<td><strong>Feature Updates</strong></td>
+<td>All Levels</td>
+<td>Windsurf Wave 3 Updates</td>
+<td>Tab to Jump, MCP, Custom App Icons, Turbo Mode</td>
+<td><a href="https://www.youtube.com/watch?v=OIV1vKm59Xg">Watch</a></td>
+</tr>
+<tr>
+<td><strong>Feature Updates</strong></td>
+<td>All Levels</td>
+<td>Windsurf Wave 2 Update</td>
+<td>Web Search, Autogenerated Memories</td>
+<td><a href="https://www.youtube.com/watch?v=YBP5Fs2N0Mg">Watch</a></td>
+</tr>
+<tr>
+<td><strong>Feature Updates</strong></td>
+<td>All Levels</td>
+<td>Windsurf Wave 1</td>
+<td>Cascade Memories and Automated Terminal Commands</td>
+<td><a href="https://www.youtube.com/watch?v=Fcl01e68vZw">Watch</a></td>
+</tr>
+<tr>
+<td><strong>Feature Updates</strong></td>
+<td>All Levels</td>
+<td>Windsurf Now Supports OpenAI's o3-mini!</td>
+<td>Integration with OpenAI's o3-mini model</td>
+<td><a href="https://www.youtube.com/watch?v=QuJsskQBtcI">Watch</a></td>
+</tr>
+</tbody>
+</table>
+<h3><strong>Community Resources</strong></h3>
+<ul>
+<li><a href="https://docs.codeium.com/windsurf">Official Windsurf Documentation</a></li>
+<li><a href="https://codeium.com/">Codeium Community Forums</a></li>
+<li><a href="https://github.com/codeium">GitHub Repository</a></li>
+</ul>
+<h3><strong>Official Documentation Links</strong></h3>
+<ul>
+<li>
+<p><a href="https://docs.codeium.com/windsurf/getting-started">Windsurf Getting Started Guide</a></p>
+</li>
+<li>
+<p><a href="https://docs.codeium.com/windsurf/cascade">Cascade Documentation</a></p>
+</li>
+<li>
+<p><a href="https://docs.codeium.com/windsurf/advanced">Advanced Windsurf Features</a></p>
+</li>
+<li>
+<p>더 쉬운 MCP 설치</p>
+<p><a href="https://www.notion.so/Cline-MCP-1c0eab14a71c80cda7a2d28f9bf5b8d4?pvs=21">Cline을 통한 MCP 설치 (편의기능)</a></p>
+</li>
+</ul>2:["$","div",null,{"className":"container mx-auto px-4 py-8 max-w-5xl","children":[["$","$Lb",null,{"metadata":{"title":"Windsurf 사용 가이드","date":"2024-03-26","excerpt":"Windsurf에 대해 알아야 할 모든 것","category":"General","tags":["AI IDE","Windsurf","LLM"],"coverImage":"/images/windsurf-ide-thumbnail.jpg","author":"Lee Han Kyol","authorImage":"/images/hklee-avatar.jpg","authorBio":"Hyperithm - LLM Engineer","slug":"windsurf_guides"}}],["$","div",null,{"className":"flex flex-col lg:flex-row gap-8 relative","children":[["$","article",null,{"className":"lg:w-3/4 w-full","children":["$","$Lc",null,{"content":"$d"}]}],["$","aside",null,{"className":"lg:w-1/4 hidden lg:block","children":["$","div",null,{"className":"sticky top-8","children":["$","$Le",null,{"content":"$f"}]}]}]]}]]}]
+a:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","1",{"charSet":"utf-8"}],["$","title","2",{"children":"하이퍼리즘 테크 블로그"}],["$","meta","3",{"name":"description","content":"하이퍼리즘 회사의 기술 블로그"}],["$","meta","4",{"name":"next-size-adjust"}]]
+1:null
